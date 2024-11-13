@@ -129,6 +129,16 @@ ________________________________________________________________________________
 - Apenas executa.
 - Tamanho menor, otimizado para execução.
 
+- SDK: Sigla para Software Development Kit.
+- Kit para desenvolvimento de software.
+- Possui tudo que precisamos para criar aplicações.
+- Já vem com o Runtime integrado.
+- Não devemos utilizar em produção.
+- Para executar precisamos apensa do Runtime.
+- É maior que o Runtime.
+- Já vemcom tudo que precisamos.
+
+
 
 
 
