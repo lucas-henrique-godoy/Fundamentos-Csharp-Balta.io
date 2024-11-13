@@ -73,6 +73,12 @@ ________________________________________________________________________________
 - Não faz mais sentido ter dois frameworks.
 - Atualmente em Preview.
 Previsão para lançamento em Nov/2020.
+_______________________________________________________________________________________________________________________________________________________________________
+
+- RELEASE(LANÇAMENTO):
+- .NET Framework: Não possuía uma data de lançamento programada.
+- .NET Core: Lançamentos (Releases) semestrais.
+- .NET 5 e futuros: Lançamentos anuais.
 
 
 
