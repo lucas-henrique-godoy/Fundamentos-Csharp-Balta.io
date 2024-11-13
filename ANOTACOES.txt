@@ -65,6 +65,14 @@ ________________________________________________________________________________
 - .NET Standart não é um framework, apenas um contrato, chamamos de Surface API.
 - É a intersecção entre os frameworks.
 - Garante que tudo que escrevemos será compatível com ambos os frameworks.
+_______________________________________________________________________________________________________________________________________________________________________
+
+- .NET 5 - Futuro:
+- Unificação dos Frameworks.
+- .NET Core chegou ao .NET Framework em nível de conteúdo.
+- Não faz mais sentido ter dois frameworks.
+- Atualmente em Preview.
+Previsão para lançamento em Nov/2020.
 
 
 
