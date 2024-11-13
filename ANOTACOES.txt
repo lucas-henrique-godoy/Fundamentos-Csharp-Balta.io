@@ -29,6 +29,7 @@ FRAMEWORKS: É uma estrutura, um alicerce.
 - Não vale a pena começar sem um.
 _______________________________________________________________________________________________________________________________________________________________________
 
+- .NET FRAMEWORK:
 - C# é a linguagem.
 - O framework se chama .NET.
 - Teve sua primeira versão em 2001.
@@ -37,4 +38,17 @@ ________________________________________________________________________________
 - Pode ser instalado Side-by-Side.
 - Compatível somente com Windows.
 Considerado legado.
+_______________________________________________________________________________________________________________________________________________________________________
+
+- .NET CORE:
+- Versão moderna do .NET Framework.
+- Lançado em meados de 2015.
+- Veio para suportar outros SOs como Linux e Mac.
+- Suas primeiras versões continham apenas o básico.
+- Core significa núcleo ou seja, o essencial.
+- Mudar um framework usado por milhões não é fácil.
+- Foi totalmente reescrito.
+- Ainda assim com ótima retro compatibilidade.
+
+
 
