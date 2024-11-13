@@ -136,7 +136,7 @@ ________________________________________________________________________________
 - Não devemos utilizar em produção.
 - Para executar precisamos apensa do Runtime.
 - É maior que o Runtime.
-- Já vemcom tudo que precisamos.
+- Já vem com tudo que precisamos.
 
 
 
