@@ -128,6 +128,7 @@ ________________________________________________________________________________
 - Usado somente para distribuir as aplicações.
 - Apenas executa.
 - Tamanho menor, otimizado para execução.
+_______________________________________________________________________________________________________________________________________________________________________
 
 - SDK: Sigla para Software Development Kit.
 - Kit para desenvolvimento de software.
