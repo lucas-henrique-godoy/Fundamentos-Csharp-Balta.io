@@ -97,7 +97,7 @@ ________________________________________________________________________________
 Exemplo:  
 15.8.2 - versão 15, 8 mudanças siginificativas e 2 correções de bugs. 
 0.0.1  - muito inicial, não é nem uma versão oficial ainda(pode nem usar em produção ainda).
-1.0.2-rcl - 
+1.0.2-rc1 - versão 1, 0 mudanças, 2 cooreções de bugs e é a resease candidate(candidata a possível versão final) de número 1.
 
 
 
