@@ -140,6 +140,11 @@ ________________________________________________________________________________
 - Já vem com tudo que precisamos.
 
 -OBS: Runtime executa, SDK cria.
+_______________________________________________________________________________________________________________________________________________________________________
+
+- CLI: Sigla para Command Interface.
+- Interface de linha de comando.
+- Comandos adicionados ao nosso terminal.
 
 
 
