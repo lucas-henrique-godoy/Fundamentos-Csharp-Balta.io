@@ -99,6 +99,10 @@ Exemplo:
 0.0.1  - muito inicial, não é nem uma versão oficial ainda(pode nem usar em produção ainda).
 1.0.2-rc1 - versão 1, 0 mudanças, 2 cooreções de bugs e é a resease candidate(candidata a possível versão final) de número 1.
 
+- MAJOR: Pode conter incompatibilidades com versões anteriores, chamadas de Breaking Changes.
+- MINOR: Possui mudanças mas é totalmente compatível com versões anteriores,  Backward Compatility.
+- PATCH: Correções de bugs e outros itens simples. 
+
 
 
 
