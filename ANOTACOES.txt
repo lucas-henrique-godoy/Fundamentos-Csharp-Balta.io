@@ -148,8 +148,8 @@ ________________________________________________________________________________
 - Definido pelo comando dotnet.
 - dotnet --version: Verifica a versão atual.
 - dotnet --list-runtimes: Lista os Runtimes instalados.
--  dotnet help: Exibe a ajuda.
--Lsta de comandos disponíveis.
+- dotnet help: Exibe a ajuda.
+- Lista de comandos disponíveis.
 
 
 
