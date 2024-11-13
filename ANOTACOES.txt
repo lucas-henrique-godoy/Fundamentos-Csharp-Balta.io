@@ -56,7 +56,7 @@ ________________________________________________________________________________
 - Instalação Side-by-Side.
 _______________________________________________________________________________________________________________________________________________________________________
 
-- .NET STANDART: Garante que tudo que estamos escrevendo irá rodar tanto no .NET Framework quanto no .NET Core.
+- .NET STANDART: Garante que tudo que estamos escrevendo irá rodar tanto no .NET Framework(sistema legado) quanto no .NET Core(sistema novo).
 
 -.NET Framework e .NET CORE coexistem.
 - Podem ser instalados juntos.
