@@ -12,7 +12,7 @@ O processo funciona assim:
 Compilação para IL: O código C# é compilado para IL, não diretamente para código de máquina.
 Execução com JIT: Durante a execução, o CLR usa o compilador Just-In-Time (JIT) para transformar o IL em código de máquina específico para a plataforma, garantindo desempenho e portabilidade.
 Benefícios: O IL permite interoperabilidade entre linguagens, segurança e otimização de desempenho.
-________________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
 
 FRAMEWORKS: É uma estrutura, um alicerce.
 - Um conjunto de bibliotecas.
