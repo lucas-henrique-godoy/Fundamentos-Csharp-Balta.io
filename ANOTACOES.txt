@@ -117,7 +117,7 @@ DEFINIÇÕES:
 - Normalmente alpha e beta tem versões menores que 1.0.0
 _______________________________________________________________________________________________________________________________________________________________________
 
-- RUNTIME: Necessário para executar aplicações. São divididos em3;
+- RUNTIME: Necessário para executar aplicações. São divididos em 3:
 - ASP.NET para aplicações Web.
 - DESKTOP para aplicações Desktop.
 - .NET CORE para qualquer outra aplicação
