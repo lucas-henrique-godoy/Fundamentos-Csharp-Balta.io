@@ -1,5 +1,7 @@
 								CURSO DE C# BALTA.IO
 
+O C# é uma linguagem fortemente tipada, de alto nível, compilada e gerenciada. É compiLada para uma linguagem intermediária chamada IL, depois disso o gerenciador CLR runtime compila a linguagem intermediária para o código de máquina, executa e faz o gerenciamento da aplicação C#. Isso significa que não precisamos alocar memória
+ 
 O CLR (Common Language Runtime) é o ambiente de execução do .NET, responsável por gerenciar a execução de aplicativos .NET, como os escritos em C#. Ele converte o código intermediário (IL) em código de máquina específico da plataforma no momento da execução, gerencia a memória (incluindo coleta de lixo), fornece segurança e tratamento de exceções e facilita a interoperabilidade entre linguagens. Isso permite que o código seja executado em múltiplas plataformas de maneira eficiente e segura, enquanto simplifica o trabalho do desenvolvedor._______________________________________________________________________________________________________________________________________________________________________
 
 IL (Intermediate Language), ou CIL (Common Intermediate Language), é a linguagem intermediária para a qual o código C# é compilado antes de ser executado. Esse código IL é independente de plataforma e arquitetura, permitindo que programas .NET rodem em qualquer sistema com uma implementação do CLR (Common Language Runtime).
