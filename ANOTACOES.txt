@@ -27,4 +27,14 @@ FRAMEWORKS: É uma estrutura, um alicerce.
 - Validados e testados.
 - Nos poupam muito tempo.
 - Não vale a pena começar sem um.
+_______________________________________________________________________________________________________________________________________________________________________
+
+- C# é a linguagem.
+- O framework se chama .NET.
+- Teve sua primeira versão em 2001.
+- Chamado de .NET Framework.
+- Recebeu as versões 1.0,1.1, 2.0, 3.0, 3.5, 4.x (Atualmente).
+- Pode ser instalado Side-by-Side.
+- Compatível somente com Windows.
+Considerado legado.
 
