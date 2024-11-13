@@ -93,7 +93,7 @@ ________________________________________________________________________________
 - Versão Semântica.
 - Dividida em fases: Alpha, Beta, Release Candidate, Final.
 
-- Dividida em três partes: Major, Minor, Patch.
+- Dividida em três partes: Major(versão maior, mudança maior, ou produto novo), Minor(mudanças menores, que podem quebrar mas não são mudanças completas), Patch(correções de bugs).
 Exemplo:  
 15.8.2 
 0.0.1
