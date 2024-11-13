@@ -115,6 +115,20 @@ DEFINIÇÕES:
 - Release Candidate => 1.0.0-rc1.
 - Final => 1.0.0
 - Normalmente alpha e beta tem versões menores que 1.0.0
+_______________________________________________________________________________________________________________________________________________________________________
+
+- RUNTIME: Necessário para executar aplicações. São divididos em3;
+- ASP.NET para aplicações Web.
+- DESKTOP para aplicações Desktop.
+- .NET CORE para qualquer outra aplicação
+- Console, Batch,  Serviço.
+- Não possui uma interface por exemplo.
+- Também possui versões.
+- A versão tem que ser compatível com a versão utilizada durante a codificação.
+- Usado somente para distribuir as aplicações.
+- Apenas executa.
+- Tamanho menor, otimizado para execução.
+
 
 
 
