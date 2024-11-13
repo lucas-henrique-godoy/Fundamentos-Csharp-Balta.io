@@ -56,7 +56,7 @@ ________________________________________________________________________________
 - Instalação Side-by-Side.
 _______________________________________________________________________________________________________________________________________________________________________
 
-- .NET STANDART: Garante que tudo que estamos escrevendo irá rodar tanto no .NET Framework(sistema legado) quanto no .NET Core(sistema novo).
+- .NET STANDART(é a padronização): Garante que tudo que estamos escrevendo irá rodar tanto no .NET Framework(sistema legado) quanto no .NET Core(sistema novo).
 
 -.NET Framework e .NET CORE coexistem.
 - Podem ser instalados juntos.
@@ -138,6 +138,8 @@ ________________________________________________________________________________
 - Para executar precisamos apensa do Runtime.
 - É maior que o Runtime.
 - Já vem com tudo que precisamos.
+
+-OBS: Runtime executa, SDK cria.
 
 
 
