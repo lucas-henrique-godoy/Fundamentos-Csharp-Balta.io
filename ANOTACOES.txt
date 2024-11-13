@@ -62,6 +62,10 @@ ________________________________________________________________________________
 - Podem ser instalados juntos.
 - Podem ser utilizados no mesmo projeto.
 - Como garantir que algo que escrevemos roda em ambos?
+- .NET Standart não é um framework, apenas um contrato, chamamos de Surface API.
+- É a intersecção entre os frameworks.
+- Garante que tudo que escrevemos será compatível com ambos os frameworks.
+
 
 
 
