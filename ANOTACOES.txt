@@ -92,7 +92,12 @@ ________________________________________________________________________________
 - VERSIONAMENTO DE SOFTWARE:
 - Versão Semântica.
 - Dividida em fases: Alpha, Beta, Release Candidate, Final.
+
 - Dividida em três partes: Major, Minor, Patch.
+Exemplo:  
+15.8.2 
+0.0.1
+1.0.2-rcl
 
 
 
