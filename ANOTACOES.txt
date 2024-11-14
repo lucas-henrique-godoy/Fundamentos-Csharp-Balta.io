@@ -180,6 +180,7 @@ CRIANDO UM NOVO PROJETO:
 - dotnet new console -o MeuApp.
 - Vai criar uma nova pasta chamada Meu App com os arquivos dentro.
 
+_______________________________________________________________________________________________________________________________________________________________________
 
 COMANDOS TERMINAL:
 - mkdir NOME_DA_PASTA: Cria uma nova pasta.
@@ -187,6 +188,14 @@ COMANDOS TERMINAL:
 - cd .. : Volta 1 pasta.
 - dir : Usado para listar arquivos em um diretório.
 - cls : Usado para limpar o terminal.
+_______________________________________________________________________________________________________________________________________________________________________
+
+
+FLUXO DE EXECUÇÃO: 
+- dotnet restore: Restaura todos os pacotes que a aplicação precisa para ser executada.
+- dotnet build: Compila a aplicação.
+- dotnet clean: Limpa as compilações anteriores.
+- dotnet run: Compila e executa a aplicação.
 
 
 
