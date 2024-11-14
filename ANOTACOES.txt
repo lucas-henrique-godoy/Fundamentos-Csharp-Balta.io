@@ -162,6 +162,17 @@ ________________________________________________________________________________
 - Pode receber dados, esperar input do usuário.
 - Projeto Web: ASP.NET Web, ASP.NET MVC, ASP.NET WebAPI.
 - Projeto Testes: Microsoft Tests.
+_______________________________________________________________________________________________________________________________________________________________________
+
+CRIANDO UM NOVO PROJETO:
+-dotnet cli:
+
+- dotnet new console  => Novo Console Application
+- dotnet new classlib => Nova Class Library
+- dotnet new web      => Novo projeto ASP.NET Core
+- dotnet new mvc      => Novo projeto ASP.NET Core
+- dotnet new webapi   => Novo projeto ASP.NET Core
+- dotnet new mstest   => Novo projeto Microsoft Test.
 
 
 
