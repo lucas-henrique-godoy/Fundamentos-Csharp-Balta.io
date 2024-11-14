@@ -194,7 +194,7 @@ ________________________________________________________________________________
 FLUXO DE EXECUÇÃO: 
 - dotnet restore: Restaura todos os pacotes que a aplicação precisa para ser executada.(Sempre que abrirmos uma nova aplicação dotnet devemos usar esse comando para baixar todas as dependências que essa aplicação tem - pacotes adicionais que essa aplocação precisa).
 - dotnet build: Compila a aplicação.
-- dotnet clean: Limpa as compilações anteriores.
+- dotnet clean: Limpa as compilações anteriores(limpa todos os arquivos de cache da nossa aplicação).
 - dotnet run: Compila e executa a aplicação.
 
 
