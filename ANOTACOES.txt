@@ -160,8 +160,8 @@ ________________________________________________________________________________
 - Console Application.
 - O resultado final é uma aplicação que roda no terminal.
 - Pode receber dados, esperar input do usuário.
-- Projeto Web.
-- Projeto Testes.
+- Projeto Web: ASP.NET Web, ASP.NET MVC, ASP.NET WebAPI.
+- Projeto Testes: Microsoft Tests.
 
 
 
