@@ -200,7 +200,7 @@ FLUXO DE EXECUÇÃO:
 OB: O balta sempre executa um dotnet restore, depois um dotnet clean e depois um dotnet build.
 _______________________________________________________________________________________________________________________________________________________________________
 
-VARIÁVEIS DE AMBIENTE: É comum termos vários ambientes para nossas aplicações:
+* VARIÁVEIS DE AMBIENTE: É comum termos vários ambientes para nossas aplicações:
 - Desenvolvimento.
 - Homologação.
 - Produção.
@@ -216,6 +216,18 @@ VARIÁVEIS DE AMBIENTE: É comum termos vários ambientes para nossas aplicaçõ
 
 - O comando run nãoexecuta depuração (Debug).
 - Neste modo sua aplicação não vai para nos Break Points.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ESTRUTURA DE UM CONSOLE APP: 
+* Arquivo .csproj
+- Formato XML.
+- Definições do projeto.
+- Presente em todo projeto .NET.
+
+* Program.cs
+- Arquivo principal (C#).
+- Porta de entrada.
+- Será o primeiro a ser executado.
 
 
 
