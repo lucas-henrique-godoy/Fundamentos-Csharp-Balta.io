@@ -204,6 +204,7 @@ VARIÁVEIS DE AMBIENTE: É comum termos vários ambientes para nossas aplicaçõ
 - Desenvolvimento.
 - Homologação.
 - Produção.
+
 * Cada ambiente possui suas configurações:
 - Cgaves de acesso externo.
 - Conexões com bancos de dados.
