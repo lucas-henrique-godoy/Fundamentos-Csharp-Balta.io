@@ -186,6 +186,7 @@ COMANDOS TERMINAL:
 - cd .\NOME_DA_PASTA: Entra em uma pasta.
 - cd .. : Volta 1 pasta.
 - dir : Usado para listar arquivos em um diretório.
+- cls : Usado para limpar o terminal.
 
 
 
