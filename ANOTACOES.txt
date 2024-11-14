@@ -156,6 +156,7 @@ ________________________________________________________________________________
 - Class Library.
 - O resultado final é uma DLL.
 - Não possui interface.
+
 - Console Application.
 - O resultado final é uma aplicação que roda no terminal.
 - Pode receber dados, esperar input do usuário.
