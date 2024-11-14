@@ -198,7 +198,15 @@ FLUXO DE EXECUÇÃO:
 - dotnet run: Compila e executa a aplicação.
 
 OB: O balta sempre executa um dotnet restore, depois um dotnet clean e depois um dotnet build.
+_______________________________________________________________________________________________________________________________________________________________________
 
+VARIÁVEIS DE AMBIENTE: É comum termos vários ambientes para nossas aplicações:
+- Desenvolvimento.
+- Homologação.
+- Produção.
+Cada ambiente possui suas configurações:
+- Cgaves de acesso externo.
+- Conexões com bancos de dados.
 
 
 
