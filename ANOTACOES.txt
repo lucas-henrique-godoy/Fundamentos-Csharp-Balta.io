@@ -181,6 +181,12 @@ CRIANDO UM NOVO PROJETO:
 - Vai criar uma nova pasta chamada Meu App com os arquivos dentro.
 
 
+COMANDOS TERMINAL:
+- mkdir NOME_DA_PASTA: Cria uma nova pasta.
+- cd .\NOME_DA_PASTA: Entra em uma pasta.
+
+
+
 
 
 
