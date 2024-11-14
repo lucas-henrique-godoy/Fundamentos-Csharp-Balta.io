@@ -178,7 +178,7 @@ CRIANDO UM NOVO PROJETO:
 - Vai sempre gerar os arquivos na pasta atual.
 - Para especificar uma pasta, podemos utilizar o "-o"
 - dotnet new console -o MeuApp.
-- Vai criar uma novs pasta chamada Meu App com os arquivos dentro.
+- Vai criar uma nova pasta chamada Meu App com os arquivos dentro.
 
 
 
