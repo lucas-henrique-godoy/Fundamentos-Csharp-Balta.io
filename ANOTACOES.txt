@@ -184,6 +184,8 @@ CRIANDO UM NOVO PROJETO:
 COMANDOS TERMINAL:
 - mkdir NOME_DA_PASTA: Cria uma nova pasta.
 - cd .\NOME_DA_PASTA: Entra em uma pasta.
+- cd .. : Volta 1 pasta.
+- dir : Usado para listar arquivos em um diretório.
 
 
 
