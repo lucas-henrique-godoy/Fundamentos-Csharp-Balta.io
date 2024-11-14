@@ -206,8 +206,16 @@ VARIÁVEIS DE AMBIENTE: É comum termos vários ambientes para nossas aplicaçõ
 - Produção.
 
 * Cada ambiente possui suas configurações:
-- Cgaves de acesso externo.
+- Chaves de acesso externo.
 - Conexões com bancos de dados.
+
+* Desta forma, podemos dizer ao .NET qual ambiente estamos utilizando:
+- dotnet run --environment=$SEU_AMBIENTE
+- dotnet run --environment=development
+- dotnet run --environment=production
+
+- O comando run nãoexecuta depuração (Debug).
+- Neste modo sua aplicação não vai para nos Break Points.
 
 
 
