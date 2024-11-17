@@ -250,8 +250,11 @@ OBS:
 _______________________________________________________________________________________________________________________________________________________________________
 
 *ESCOPO DE UM PROGRAMA:
-- Importações
-- Namespace
+- Importações: 
+
+- Namespace: Enquanto as pastas são as divisões físicas, os namespaces são as divisões logicas. Assim como não podemos ter dois arquivos com mesmo nome nas pastas, não podemos ter duas classes com mesmo nome em um namespace. O ideal é ter apenas um namespace e uma classe por arquivo. O escopo de um namespace é definido entre CHAVES. Classes e métodos também. Um namespace pode ser reutilizado e pode estar presene em diversos arquivos.
+
+
 - Classe
 - Método Principal
 
