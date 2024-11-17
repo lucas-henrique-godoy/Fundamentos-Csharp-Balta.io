@@ -240,7 +240,7 @@ OBS:
 - RUINS: C:\Caminho Com Espaços e Caracteres Especiais\eu App.
 - Evite caminhos de rede.
 - Se possível, utilize  C:\
-- O C# é Code Sensitive.
+- O C# é Case Sensitive.
 - Isso significa que ele diferencia maiúsculas de minúsculas.
 - Teste é diferente de teste.
 
