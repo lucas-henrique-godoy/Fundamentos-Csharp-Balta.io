@@ -252,7 +252,73 @@ ________________________________________________________________________________
 *ESCOPO DE UM PROGRAMA:
 - Importações: 
 
-- Namespace: Enquanto as pastas são as divisões físicas, os namespaces são as divisões logicas. Assim como não podemos ter dois arquivos com mesmo nome nas pastas, não podemos ter duas classes com mesmo nome em um namespace. O ideal é ter apenas um namespace e uma classe por arquivo. O escopo de um namespace é definido entre CHAVES. Classes e métodos também. Um namespace pode ser reutilizado e pode estar presene em diversos arquivos.
+- Namespace: Enquanto as pastas são as divisões físicas, os namespaces são as divisões lógicas. Assim como não podemos ter dois arquivos com mesmo nome nas pastas, não podemos ter duas classes com mesmo nome em um namespace. O ideal é ter apenas um namespace e uma classe por arquivo. O escopo de um namespace é definido entre CHAVES. Classes e métodos também. Um namespace pode ser reutilizado e pode estar presente em diversos arquivos.
+-OBS: Quando você tem duas classes com o mesmo nome, mas elas estão em pastas diferentes, o problema é resolvido usando namespaces. Cada pasta pode ter seu próprio namespace, e assim as classes, mesmo com o mesmo nome, podem ser diferenciadas.
+
+Exemplo Prático
+Imaginemos que você tenha duas classes chamadas Program, mas elas estão em pastas diferentes dentro do seu projeto. Para evitar conflitos, você utiliza namespaces diferentes para cada pasta.
+
+Pasta 1: MeuApp/Program.cs
+O namespace desta classe será MeuApp.
+Pasta 2: MeuApp/Teste/Program.cs
+O namespace desta classe será MeuApp.Teste.
+Mesmo que ambas as classes se chamem Program, elas têm namespaces diferentes e, por isso, são tratadas como classes distintas.
+
+Como ficaria o código:
+Classe Program na pasta MeuApp:
+
+namespace MeuApp
+{
+    public class Program
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Classe Program no MeuApp");
+        }
+    }
+}
+
+
+Classe Program na pasta MeuApp/Teste:
+
+
+namespace MeuApp.Teste
+{
+    public class Program
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Classe Program no MeuApp.Teste");
+        }
+    }
+}
+
+Como usar essas classes em outro arquivo
+Agora, se você precisar usar essas classes Program em outro arquivo, você precisa especificar corretamente o namespace de cada uma delas. Por exemplo:
+
+
+using MeuApp;        // Usando Program de MeuApp
+using MeuApp.Teste;   // Usando Program de MeuApp.Teste
+
+class TesteProgram
+{
+    static void Main()
+    {
+        // Instanciando a classe Program de MeuApp
+        MeuApp.Program app = new MeuApp.Program();
+        app.Main();
+
+        // Instanciando a classe Program de MeuApp.Teste
+        MeuApp.Teste.Program appTeste = new MeuApp.Teste.Program();
+        appTeste.Main();
+    }
+}
+O que ficou claro aqui:
+Namespace é o que diferencia as classes. Mesmo que as classes tenham o mesmo nome, se elas estiverem em namespaces diferentes, elas são tratadas como entidades distintas.
+MeuApp e MeuApp.Teste são namespaces diferentes, correspondendo a pastas diferentes dentro do seu projeto.
+Ao referenciar as classes em outro código, você usa o namespace completo para identificar de qual classe Program você está falando.
+Resumo:
+Se precisar ter duas classes com o mesmo nome em pastas diferentes, você deve colocar um namespace único para cada pasta (por exemplo, MeuApp e MeuApp.Teste). Isso ajuda a evitar conflitos de nomes e mantém o código organizado.  
 
 
 - Classe
