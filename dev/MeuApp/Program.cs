@@ -4,9 +4,10 @@ namespace MeuApp
 {
     class Program
     {
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var texto = "Testando";
+            Console.WriteLine(texto);
         }
     }
 }
