@@ -180,6 +180,10 @@ CRIANDO UM NOVO PROJETO:
 - dotnet new console -o MeuApp.
 - Vai criar uma nova pasta chamada Meu App com os arquivos dentro.
 
+- dotnet new console --use-program-main => Cria um novo projeto C# com a estrutura clássica.
+- dotnet new console --use-program-main -n MeuProjetoConsole => Cria um novo projeto C# com a estrutura clássica e permite dar um nome ao projeto. 
+
+
 _______________________________________________________________________________________________________________________________________________________________________
 
 COMANDOS TERMINAL:
@@ -245,6 +249,10 @@ OBS:
 - Teste é diferente de teste.
 _______________________________________________________________________________________________________________________________________________________________________
 
-
+*ESCOPO DE UM PROGRAMA:
+- Importações
+- Namespace
+- Classe
+- Método Principal
 
 
