@@ -230,8 +230,19 @@ ________________________________________________________________________________
 - Será o primeiro a ser executado.
 _______________________________________________________________________________________________________________________________________________________________________
 
+OBS:
+- Não utilize espaços nem caracteres especiais na criação do programa.
+- BONS: MeuApp, Pedidos, MinhaApp.
+- RUINS: "Meiu App", $APP, App#Teste.
 
-
+- Tente utilizar caminhos curtos e sem caracteres especiais.
+- BONS: C:\apps.
+- RUINS: C:\Caminho Com Espaços e Caracteres Especiais\eu App.
+- Evite caminhos de rede.
+- Se possível, utilize  C:\
+- O C# é Code Sensitive.
+- Isso significa que ele diferencia maiúsculas de minúsculas.
+- Teste é diferente de teste.
 
 
 
