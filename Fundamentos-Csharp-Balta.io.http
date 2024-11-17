@@ -1,6 +1,0 @@
-@Fundamentos_Csharp_Balta.io_HostAddress = http://localhost:5129
-
-GET {{Fundamentos_Csharp_Balta.io_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
