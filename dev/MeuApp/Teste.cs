@@ -1,4 +1,4 @@
-namespace MeuApp
+namespace MeuApp.Teste
 {
     class Teste
     {
