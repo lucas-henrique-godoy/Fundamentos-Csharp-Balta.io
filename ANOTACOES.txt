@@ -250,9 +250,27 @@ OBS:
 _______________________________________________________________________________________________________________________________________________________________________
 
 *ESCOPO DE UM PROGRAMA:
+
 - Importações: 
 
-- Namespace: Enquanto as pastas são as divisões físicas, os namespaces são as divisões lógicas. Assim como não podemos ter dois arquivos com mesmo nome nas pastas, não podemos ter duas classes com mesmo nome em um namespace. O ideal é ter apenas um namespace e uma classe por arquivo. O escopo de um namespace é definido entre CHAVES. Classes e métodos também. Um namespace pode ser reutilizado e pode estar presente em diversos arquivos.
+_______________________________________________________________________________________________________________________________________________________________________
+
+- Namespace: 
+- Enquanto as pastas são as divisões físicas
+- Os namespaces são as divisões lógicas.
+- Assim como não podemos ter dois arquivos com mesmo nome nas pastas.
+- Não podemos ter duas classes com mesmo nome em um namespace.
+- O ideal é ter apenas um namespace e uma classe por arquivo. 
+- O escopo de um namespace é definido entre CHAVES. 
+- Classes e métodos também. 
+- Um namespace pode ser reutilizado.
+- Pode estar presente em diversos arquivos.
+-Podemos criar quantos namespaces quisermos.
+- Não devem conter espaços ou caracteres especiais.
+- Toda palavra no namespace começa com maiúsculo.
+- Podemos ter um namespace dentro de outro usando "."
+- A importação que vimos anteriormente é feita pelos namespaces.
+
 -OBS: Quando você tem duas classes com o mesmo nome, mas elas estão em pastas diferentes, o problema é resolvido usando namespaces. Cada pasta pode ter seu próprio namespace, e assim as classes, mesmo com o mesmo nome, podem ser diferenciadas.
 
 Exemplo Prático
@@ -319,9 +337,10 @@ MeuApp e MeuApp.Teste são namespaces diferentes, correspondendo a pastas difere
 Ao referenciar as classes em outro código, você usa o namespace completo para identificar de qual classe Program você está falando.
 Resumo:
 Se precisar ter duas classes com o mesmo nome em pastas diferentes, você deve colocar um namespace único para cada pasta (por exemplo, MeuApp e MeuApp.Teste). Isso ajuda a evitar conflitos de nomes e mantém o código organizado.  
-
-
+_______________________________________________________________________________________________________________________________________________________________________
 - Classe
+_______________________________________________________________________________________________________________________________________________________________________
+
 - Método Principal
 
 
