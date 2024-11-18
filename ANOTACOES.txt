@@ -218,7 +218,7 @@ ________________________________________________________________________________
 - dotnet run --environment=development
 - dotnet run --environment=production
 
-- O comando run nãoexecuta depuração (Debug).
+- O comando run não executa depuração (Debug).
 - Neste modo sua aplicação não vai para nos Break Points.
 _______________________________________________________________________________________________________________________________________________________________________
 
@@ -276,7 +276,10 @@ ________________________________________________________________________________
 - Sobrará apenas a divisão lógica, que são os namespaces.
 
 
--OBS: Quando você tem duas classes com o mesmo nome, mas elas estão em pastas diferentes, o problema é resolvido usando namespaces. Cada pasta pode ter seu próprio namespace, e assim as classes, mesmo com o mesmo nome, podem ser diferenciadas. Exemplo Prático
+-OBS: Quando você tem duas classes com o mesmo nome, mas elas estão em pastas diferentes, o problema é resolvido usando namespaces. Cada pasta pode ter seu próprio namespace, e assim as classes, mesmo com o mesmo nome, podem ser diferenciadas.
+- Se desejo usar uma classe que esta em outro namespace dentro da classe principal, eu devo importar o namespace usando using na classe principal.
+
+Exemplo Prático
 Imaginemos que você tenha duas classes chamadas Program, mas elas estão em pastas diferentes dentro do seu projeto. Para evitar conflitos, você utiliza namespaces diferentes para cada pasta:
 
 Pasta 1: MeuApp/Program.cs

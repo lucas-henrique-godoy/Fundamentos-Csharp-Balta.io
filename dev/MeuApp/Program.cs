@@ -8,8 +8,8 @@ namespace MeuApp
         static void Main(string[] args)
         {
             var texto = "Testando";
-            Console.WriteLine(texto);
-        }
+            Console.WriteLine(texto);            
+        }       
     }
 }
 
