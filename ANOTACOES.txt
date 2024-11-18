@@ -253,11 +253,12 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 
 
-- Importações: 
+* IMPORTAÇÕES (USING): 
+- Importações 
 
 _______________________________________________________________________________________________________________________________________________________________________
 
-- Namespace: 
+* NAMESPACE: 
 - Enquanto as pastas são as divisões físicas
 - Os namespaces são as divisões lógicas.
 - Assim como não podemos ter dois arquivos com mesmo nome nas pastas.
@@ -346,9 +347,10 @@ Ao referenciar as classes em outro código, você usa o namespace completo para 
 Resumo:
 Se precisar ter duas classes com o mesmo nome em pastas diferentes, você deve colocar um namespace único para cada pasta (por exemplo, MeuApp e MeuApp.Teste). Isso ajuda a evitar conflitos de nomes e mantém o código organizado.  
 _______________________________________________________________________________________________________________________________________________________________________
-- Classe
+
+* CLASSE:
 _______________________________________________________________________________________________________________________________________________________________________
 
-- Método Principal
+* MÉTODO PRINCIPAL:
 
 
