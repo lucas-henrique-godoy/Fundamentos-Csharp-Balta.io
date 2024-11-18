@@ -363,4 +363,12 @@ ________________________________________________________________________________
 
 * MÉTODO PRINCIPAL:
 
+_______________________________________________________________________________________________________________________________________________________________________
+
+* VARIÁVEIS: 
+- Uma variável é algo que utilizamos para armazenar uma informação.
+- Ser variável significa que seu valor pode ser alterado a qualquer momento.
+- Ou seja, ele pode variar.
+- Sempre que "criamos" uma variável, dizemos que estamos inicializando ela.
+
 
