@@ -1,5 +1,5 @@
 ﻿using System;
-using MeuApp.Teste;
+using MeuApp.Teste; //Importando o novo namespace
 
 namespace MeuApp
 {
