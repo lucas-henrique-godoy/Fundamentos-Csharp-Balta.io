@@ -395,6 +395,14 @@ ________________________________________________________________________________
 - Não funcionam com a utilização de var.
 - São mais otimizadas que as variáveis.
 - Recomendadas para usos frequentes.
+- A definição de constante é dada pela palavra reservada const ante do tipo.
+- Caso não seja informado um valor, o valor padrão será atribuído.
+
+EXEMPLOS:
+const int IDADE_MINIMA; // Correto inicia com ZERO
+const int IDADE_MINIMA = 25; // Correto inicia com 25
+const var IDADE_MINIMA = 25; // Errado
+const var IDADE_MINIMA; // Errado
 
 
 
