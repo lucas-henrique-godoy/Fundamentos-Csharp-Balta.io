@@ -426,5 +426,14 @@ ________________________________________________________________________________
 - Múltiplas linhas
 - XML (Metadata)
 
+// Comentário em uma inha.
+
+/*
+    Coemntário em várias
+    linhas
+*/
+
+/// Notação XML (Metadata)	
+
 
 
