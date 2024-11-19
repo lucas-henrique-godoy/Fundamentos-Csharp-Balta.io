@@ -385,5 +385,16 @@ int idade; // Correto inicia com ZERO.
 int idade = 25; // Correto inicia com 25.
 var idade = 25; // Correto inicia com 25.
 var idade; // Errado.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* CONSTANTES:
+- Também utilizamos uma constante para armazenar uma informação.
+- As constantes NÃO PODEM ser alteradas.
+- Uma vez criadas somos obrigados a atribuir um valor.
+- Feito isto elas não poderão ser modificadas novamente.
+- Não funcionam com a utilização de var.
+- São mais otimizadas que as variáveis.
+- Recomendadas para usos frequentes.
+
 
 
