@@ -14,14 +14,15 @@ namespace MeuApp
             // var idade; // Errado
             //----------------------------------------------------------
 
-            // CONSTANTES:
-            //const int IDADE_MINIMA; // Correto inicia com ZERO
-            //const int IDADE_MINIMA = 25; // Correto inicia com 25            
+            /* CONSTANTES:
+               const int IDADE_MINIMA; // Correto inicia com ZERO
+               const int IDADE_MINIMA = 25; // Correto inicia com 25   
+            */         
             
-            /*
+            
             var texto = "Testando";
             Console.WriteLine(texto); 
-            */
+            
                        
         }       
     }

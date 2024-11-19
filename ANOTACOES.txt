@@ -435,7 +435,11 @@ ________________________________________________________________________________
 
 /// Notação XML (Metadata)	
 
-OBS: No Vscode se você selecionar texto e apertar ctrl + k + c comenta todas as linhas e ctrl + k + u descomenta
+OBS: No Vscode se você selecionar texto e apertar ctrl + k + c comenta todas as linhas e ctrl + k + u descomenta.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* TIPOS PRIMITIVOS:
+- 
 
 
 
