@@ -439,7 +439,16 @@ OBS: No Vscode se você selecionar texto e apertar ctrl + k + c comenta todas as
 _______________________________________________________________________________________________________________________________________________________________________
 
 * TIPOS PRIMITIVOS:
-- 
+- Também conhecidos como built-in typoes.
+- São tipos base cujo outros tipos (Complexos) irão derivar.
+- Definir o tipo correto otimiza a execução do programa.
+- São chamados de Tipos de Valor.
+- Armazenam o valor e não a referência para um item na memória.
+- São classificados em 
+	- Tipos Simples(Simple Types)
+	- Enumeradores(Enums)
+	- Estruturas(Structs)
+	- Tipos Nulos(Nullable Types)
 
 
 
