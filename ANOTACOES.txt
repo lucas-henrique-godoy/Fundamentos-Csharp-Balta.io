@@ -426,7 +426,7 @@ ________________________________________________________________________________
 - Múltiplas linhas
 - XML (Metadata)
 
-// Comentário em uma inha.
+// Comentário em uma linha.
 
 /*
     Comentário em várias
