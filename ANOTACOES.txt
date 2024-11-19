@@ -429,11 +429,13 @@ ________________________________________________________________________________
 // Comentário em uma inha.
 
 /*
-    Coemntário em várias
+    Comentário em várias
     linhas
 */
 
 /// Notação XML (Metadata)	
+
+OBS: No Vscode se você selecionar texto e apertar ctrl + k + c comenta todas as linhas e ctrl + k + u descomenta
 
 
 
