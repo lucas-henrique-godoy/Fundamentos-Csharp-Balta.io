@@ -18,9 +18,7 @@ namespace MeuApp
             const int IDADE_MINIMA = 25; // Correto inicia com 25            
             
             var texto = "Testando";
-            Console.WriteLine(texto);
-
-            
+            Console.WriteLine(texto);            
         }       
     }
 }
