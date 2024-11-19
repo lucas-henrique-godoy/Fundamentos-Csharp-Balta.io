@@ -408,6 +408,13 @@ const int IDADE_MINIMA; // Correto inicia com ZERO
 const int IDADE_MINIMA = 25; // Correto inicia com 25
 const var IDADE_MINIMA = 25; // Errado (var é só para variáveis)
 const var IDADE_MINIMA; // Errado (var é só para variáveis)
+_______________________________________________________________________________________________________________________________________________________________________
+
+* NOMES RESERVADOS:
+- Também chamados de Keywords.
+- São palavras de uso exclusivo do C#.
+- Não podemos utilizar como nomes de variáveis ou constantes.
+- O Visual Studio Code vai te avisar sobre eles.
 
 
 
