@@ -397,6 +397,11 @@ ________________________________________________________________________________
 - Recomendadas para usos frequentes.
 - A definição de constante é dada pela palavra reservada const ante do tipo.
 - Caso não seja informado um valor, o valor padrão será atribuído.
+- Utilize nomes coesos.
+- Não utilize caracteres especiais ou espaços.
+- Não comece com números.
+- É comum vermos constantes todas em maiúsculas, separadas por "_".
+- A ideia é bater o olho no código e saber que aquilo é uma constante.
 
 EXEMPLOS:
 const int IDADE_MINIMA; // Correto inicia com ZERO
