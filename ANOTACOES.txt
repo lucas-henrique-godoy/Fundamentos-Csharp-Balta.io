@@ -618,9 +618,19 @@ ________________________________________________________________________________
   - bool => false
   - char => '\0'
   - String => "" 
+_______________________________________________________________________________________________________________________________________________________________________
 
+* CONVERSÃO IMPLÍCITA:
+- É comum precisarmos transformar um dado de tipo X para tipo Y.
+- Existem dois tipos de conversão, as implícitas e as explícitas.
+- As implícitas são conversões que
+  - Podem ser executadas apenas com passagem de dados.
+  - Possuem tipos compatíveis.
 
+float valor = 25.8F;
+int outro = 25;
 
+valor = outro // Conversão implícita
 
 
 
