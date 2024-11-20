@@ -566,6 +566,8 @@ ________________________________________________________________________________
 var idade = 25; // Será do tipo int.
 var nome = "Lucas"; // Será do tipo string.
 
+*OBS: Em alguns casos os var é melhor pois pode ajudar a escrever menos códigos.
+
 
 
 
