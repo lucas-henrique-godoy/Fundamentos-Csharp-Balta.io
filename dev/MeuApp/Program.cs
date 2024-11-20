@@ -19,7 +19,7 @@ namespace MeuApp
                const int IDADE_MINIMA = 25; // Correto inicia com 25   
             */         
             
-            
+            byte meuByte = 127; // tipo byte
             var texto = "Testando";
             Console.WriteLine(texto); 
             
