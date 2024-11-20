@@ -576,6 +576,21 @@ ________________________________________________________________________________
 
 object idade = 25; // Será do tipo object
 object nome = "Lucas"; // Será do tipo object 
+_______________________________________________________________________________________________________________________________________________________________________
+
+* NULLABLE TYPES:
+* NULL:
+- Significa vazio, nada.
+- Diferente de zero ou uma string vazia.
+- Todo tipo, primitivo o complexo pode receber o valor null.
+- O tipo deve ser marcado coo Nullable Type.
+- Podemos atribuir null a um objeto.
+- Desde que o mesmo seja marcado como nullable.
+  - Usando interrogação na frente do tipo.
+- Seua chamada a um valr nulo for feita um erro será apresentado.
+
+int? idade = null;
+
 
 
 
