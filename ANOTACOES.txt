@@ -513,7 +513,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 
 * Números Reais:
-- Números que exigem uma maior pecisão, o seja com pontuação.
+- Números que exigem uma maior precisão, o seja com pontuação.
   - float (Notação F)
   - double
   - decimal (Notação M)
