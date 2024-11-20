@@ -680,7 +680,7 @@ ________________________________________________________________________________
 - É dada pelo uso do tipo entre parênteses antes da atribuição.
 - Segue as mesmas regras anteriores.
 
-int inteiro= 100;
+int inteiro = 100;
 uint inteiroSemSinal = (uint)inteiro; // Conversão explícita
 _______________________________________________________________________________________________________________________________________________________________________
 
@@ -693,6 +693,15 @@ int inteiro = int.Parse("100");
 _______________________________________________________________________________________________________________________________________________________________________
 
 * CONVERT:
+- Similar ao parse visto anteriormente.
+- Porém permite converter vários tipos de valor.
+  - Não apenas string.
+- Devemos informar o tipo na chamada da conversão
+
+int inteiro = Convert.ToInt32("100"); 
+_______________________________________________________________________________________________________________________________________________________________________
+
+* OPERAÇOES ARTMÉTICAS:
 - 
   
 
