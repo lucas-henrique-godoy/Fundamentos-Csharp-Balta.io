@@ -529,7 +529,7 @@ ________________________________________________________________________________
 - decimal (128-bit)
   - (+ ou -)1.0 x 10e-28 até 7.9 x 10e28
 
-*OBS: Quando usamos o var para delarar uma  variável com ponto flutuante, ela é sempre double por padrão.s
+*OBS: Quando usamos o var para declarar uma  variável com ponto flutuante, ela é sempre double por padrão.
 
 
 
