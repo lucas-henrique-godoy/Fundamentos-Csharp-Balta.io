@@ -463,6 +463,22 @@ ________________________________________________________________________________
 - Ele é a base de todos os objetos no .NET
 - Não precisamos nos preocupar em usá-lo ou qualquer coisa similar
 - Seu uso já é implícito.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* Byte:
+- O tipo byte é utilizado para representar um byte de fato.
+- E diversos casos precisamos da cadeia de bytes de um arquivo por exemplo.
+	- Também chamado de bytearray.
+- Temos também o sbyte, que permite valores negativos.
+
+* SIGNED e USIGNED: Valores com sinal como "-" por exemplo, são chamados de signed.
+- byte (8-bit)
+   - 0 até 255
+- sbyte (8-bit)
+   - -128 até 127
+- Note que o sbyte permite valores negativos, por isto no nome sbyte, que significa Signed Byte.
+
+
 
 
 
