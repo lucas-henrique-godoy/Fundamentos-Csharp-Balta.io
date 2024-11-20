@@ -34,6 +34,9 @@ namespace MeuApp
             bool usuarioJaCadastrado = false; // tipo booleano
             var usuarioExpirado = false; // usando var
 
+            char primeiraLetra = 'C'; // tipo char
+            var segundaLetra = 'D';// usando var
+
             var texto = "Testando";
             Console.WriteLine(texto); 
             
