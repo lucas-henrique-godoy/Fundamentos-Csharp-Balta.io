@@ -383,7 +383,7 @@ ________________________________________________________________________________
 * EXEMPLOS:
 int idade; // Correto inicia com ZERO.
 int idade = 25; // Correto inicia com 25.
-var idade = 25; // Correto inicia com 25. O var sempre declara o valor da variável como inteiro por padrão
+var idade = 25; // Correto inicia com 25. Quando usamos var para declarar uma variável a variável fica como inteiro por padrão
 var idade; // Errado.
 
 
@@ -528,6 +528,8 @@ ________________________________________________________________________________
 
 - decimal (128-bit)
   - (+ ou -)1.0 x 10e-28 até 7.9 x 10e28
+
+*OBS: Quando usamos o var para delarar uma  variável com ponto flutuante, ela é sempre double por padrão.s
 
 
 
