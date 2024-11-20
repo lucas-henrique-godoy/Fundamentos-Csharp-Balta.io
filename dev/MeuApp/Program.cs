@@ -37,10 +37,12 @@ namespace MeuApp
             char primeiraLetra = 'C'; // tipo char
             var segundaLetra = 'D';// usando var
 
+            string terceiraLetra = "A"; // tipo string com apenas 1 caracterer é posisvel mas usa memória desnecessariamente
+            string testo = "Meu texto"; // tipo string
+            var dcumento = "12345.99"; // string podem ser numeros, letras, símbolos, etc
+
             var texto = "Testando";
-            Console.WriteLine(texto); 
-            
-                       
+            Console.WriteLine(texto);                       
         }       
     }
 }

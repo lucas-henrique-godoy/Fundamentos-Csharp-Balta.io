@@ -545,6 +545,15 @@ ________________________________________________________________________________
 - A atribuição de um valor char e dada por aspas simples.
 - char (16-bit)
   - Qualquer caractere.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* STRING:
+- Armazena uma cadeia de caracteres.
+- Podemos pensar nele como uma lista de char.
+- Definido pela palavra reservada string.
+- A atribuição de um valor string é dada por aspas duplas.
+- string (?) 
+  - Uma cadeia de caracteres
 
 
 
