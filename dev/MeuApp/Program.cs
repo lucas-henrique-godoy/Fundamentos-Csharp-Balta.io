@@ -31,6 +31,9 @@ namespace MeuApp
 
             decimal salarioAnual = 25.000m; // tipo decimal
 
+            bool usuarioJaCadastrado = false; // tipo booleano
+            var usuarioExpirado = false; // usando var
+
             var texto = "Testando";
             Console.WriteLine(texto); 
             
