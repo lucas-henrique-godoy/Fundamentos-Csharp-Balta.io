@@ -640,7 +640,7 @@ valor = outro // Conversão implícita
   - O tipo de dado for compatível
   - O tamanho do dado for compatível
 - Em caso de números a precisão pode ser alterada.
-- Qualquer situação adversa causará erro 
+- Qualquer situação adversa causará erro. 
 
 
 
