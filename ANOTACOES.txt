@@ -642,6 +642,38 @@ valor = outro // Conversão implícita
 - Em caso de números a precisão pode ser alterada.
 - Qualquer situação adversa causará erro. 
 
+- sbyte
+  - short, int, long, float, double, decimal
+
+- byte
+  - short, ushort, int, uint, long, ulong, float, double, decimal
+
+- short
+  - int, long, float, double, or decimal
+
+- ushort
+  - int, uint, long, ulong, float, double, or decimal
+
+- int
+  - long, foat, double, or decimal 
+
+- uint
+  - long, ulong, float, double, or decimal
+
+- long
+  - float, double, or decimal
+
+- ulong
+  - float, double, or decimal
+
+- char
+  - ushort, int, uint, long, ulog, float, double, or decimal
+
+- float
+  - double
+
+*OBS: Conversão ou Cast
+
 
 
 
