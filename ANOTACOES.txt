@@ -607,6 +607,17 @@ Int32 idade = 25; // Tipo
   - Com alias escrevemos menos. 
 int idade = 25; // Alias
 Int32 idade = 25; // Tipo
+_______________________________________________________________________________________________________________________________________________________________________
+
+* VALORES PADRÕES:
+- Todo tipo built-in, já possui um valor padrão.
+- Se nenhum valor for informado, seu valor padrão será utilizado.
+  - int => 0
+  - foat => 0
+  - decimal => 0
+  - bool => 0
+  - char => '\0'
+  - String => "" 
 
 
 
