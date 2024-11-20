@@ -20,6 +20,13 @@ namespace MeuApp
             */         
             
             byte meuByte = 127; // tipo byte
+
+            int idade = 25; //tipo int
+
+            float preco = 10.90f;
+
+            double altura = 1.80;
+            
             var texto = "Testando";
             Console.WriteLine(texto); 
             

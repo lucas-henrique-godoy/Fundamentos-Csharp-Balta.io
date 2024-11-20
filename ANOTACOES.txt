@@ -383,8 +383,10 @@ ________________________________________________________________________________
 * EXEMPLOS:
 int idade; // Correto inicia com ZERO.
 int idade = 25; // Correto inicia com 25.
-var idade = 25; // Correto inicia com 25.
+var idade = 25; // Correto inicia com 25. O var sempre declara o valor da variável como inteiro por padrão
 var idade; // Errado.
+
+
 _______________________________________________________________________________________________________________________________________________________________________
 
 * CONSTANTES:
@@ -508,6 +510,25 @@ ________________________________________________________________________________
 
 - ulong (64-bit)
   - 0 até 18,446,744,073,709,551,615
+_______________________________________________________________________________________________________________________________________________________________________
+
+* Números Reais:
+- Números que exigem uma maior pecisão, o seja com pontuação.
+  - float (Notação F)
+  - double
+  - decimal (Notação M)
+
+- Possuem assimilação negativa e positiva por padrão dispensando uso signed/unsigned em seus tipos.
+
+- float (32-bit)
+  - -3.402823e38 até 3.402823e38
+
+- double (64-bit)
+  - -1.79769313486232e308até 179769313486232e308
+
+- decimal (128-bit)
+  - (+ ou -)1.0 x 10e-28 até 7.9 x 10e28
+
 
 
 
