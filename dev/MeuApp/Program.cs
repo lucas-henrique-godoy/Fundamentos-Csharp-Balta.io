@@ -24,6 +24,7 @@ namespace MeuApp
             var salario = 2.500; // var por padrão fica double
 
             int idade = 25; //tipo int
+            var idadeLucas = 27; // usando var
 
             float preco = 10.90f;// tipo float
 

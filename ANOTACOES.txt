@@ -554,6 +554,17 @@ ________________________________________________________________________________
 - A atribuição de um valor string é dada por aspas duplas.
 - string (?) 
   - Uma cadeia de caracteres
+_______________________________________________________________________________________________________________________________________________________________________
+
+* VAR:
+- Substitui o nome de um tipo.
+- Será do tipo do primeiro valor atribuído.
+- Recomendado o uso;
+  - Deixe para usar var quando já dominar os tipos.
+
+*EXEMPLOS:
+var idade = 25; // Será do tipo int.
+var nome = "Lucas"; // Será do tipo string.
 
 
 
