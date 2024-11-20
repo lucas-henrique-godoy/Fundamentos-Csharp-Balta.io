@@ -567,6 +567,15 @@ var idade = 25; // Será do tipo int.
 var nome = "Lucas"; // Será do tipo string.
 
 *OBS: Em alguns casos os var é melhor pois pode ajudar a escrever menos códigos.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* OBJECT:
+- Tipo genérico que recebe qualquer valor ou objeto
+- Caso não possui intelisense (Ajuda dos editores) por ser um tipo desconhecido.
+- Evite usar.
+
+object idade = 25; // Será do tipo object
+object nome = "Lucas"; // Será do tipo object 
 
 
 
