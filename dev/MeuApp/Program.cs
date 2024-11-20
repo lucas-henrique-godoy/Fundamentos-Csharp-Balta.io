@@ -47,6 +47,8 @@ namespace MeuApp
             quantidade = 2.5; // tipo object
             quantidade = "Teste"; // tipo object
 
+            int? idadeWendel = null; // tipo null
+
             var texto = "Testando";
             Console.WriteLine(texto);                       
         }       
