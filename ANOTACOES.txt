@@ -632,6 +632,16 @@ int outro = 25;
 
 valor = outro // Conversão implícita
 
+- A conversão anterior ocorreu pois um número real pode receber um número inteiro.
+- Porém, ao contrário não aconteceria.
+  - Um número inteiro não tem pontuação.
+  - Logo ele não poderia receber um número real.
+- A conversão só ocorrerá se
+  - O tipo de dado for compatível
+  - O tamanho do dado for compatível
+- Em caso de números a precisão pode ser alterada.
+- Qualquer situação adversa causará erro 
+
 
 
 
