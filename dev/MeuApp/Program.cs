@@ -43,6 +43,9 @@ namespace MeuApp
             var dcumento = "12345.99"; // string podem ser numeros, letras, símbolos, etc
 
             object quantidade; // tipo object
+            quantidade = 1; // tipo object
+            quantidade = 2.5; // tipo object
+            quantidade = "Teste"; // tipo object
 
             var texto = "Testando";
             Console.WriteLine(texto);                       
