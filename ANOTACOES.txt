@@ -599,14 +599,14 @@ ________________________________________________________________________________
   - Vimos anteriormente os alias
 
 int idade = 25; // Alias
-int32 idade = 25; // Tipo
+Int32 idade = 25; // Tipo
 
 - Como o C# é Case Sensitive, tanto faz escrevermos um ou outro.
 - Porém, o recomendado é sempre usar o alias.
 - No caso abaixo o resultado é o mesmo.
   - Com alias escrevemos menos. 
 int idade = 25; // Alias
-int32 idade = 25; // Tipo
+Int32 idade = 25; // Tipo
 
 
 
