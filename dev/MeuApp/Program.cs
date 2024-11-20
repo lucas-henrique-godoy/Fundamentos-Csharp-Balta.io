@@ -21,12 +21,16 @@ namespace MeuApp
             
             byte meuByte = 127; // tipo byte
 
+            var salario = 2.500; // var por padrão fica double
+
             int idade = 25; //tipo int
 
-            float preco = 10.90f;
+            float preco = 10.90f;// tipo float
 
-            double altura = 1.80;
-            
+            double altura = 1.80; // tipo double
+
+            decimal salarioAnual = 25.000m; // tipo decimal
+
             var texto = "Testando";
             Console.WriteLine(texto); 
             
