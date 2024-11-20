@@ -673,6 +673,16 @@ valor = outro // Conversão implícita
   - double
 
 *OBS: Conversão ou Cast
+_______________________________________________________________________________________________________________________________________________________________________
+
+* CONVERSAO EXPLÍCITA:
+- Ocorre quando os tipos não são compatíveis.
+- É dada pelo uso do tipo entre parênteses antes da atribuição.
+- Segue as mesmas regras anteriores.
+
+int inteiro= 100;
+uint inteiroSemSinal = (uint)inteiro; // Conversão explícita
+
 
 
 
