@@ -702,7 +702,14 @@ int inteiro = Convert.ToInt32("100");
 _______________________________________________________________________________________________________________________________________________________________________
 
 * OPERAÇOES ARTMÉTICAS:
-- 
+- Soma => +
+- Subtração => -
+- Multiplicação => *
+- Divisão => /
+
+- Multilicação e divisão são executadas primeiro
+- Caso queira executar em outra ordem, usar parênteses.
+- Aceita short, int, float, double e decimal. 
   
 
 
