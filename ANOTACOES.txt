@@ -770,6 +770,21 @@ x > 0;  // True
 x < 0;  // False
 x <= 0; // False
 x >= 0; // True
+_______________________________________________________________________________________________________________________________________________________________________
+
+* OPERADORES LÓGICOS:
+- Usado para operações condicionais.
+- Retorna SEMPRE verdadeiro ou falso.
+- E-and
+  - Deve atender TODAS as condições
+  - &&
+
+- OU -or
+  - Se atender uma condição já retorna verdadeiro
+  - ||
+
+- NEGAÇÃO -not
+  - !
   
 
 
