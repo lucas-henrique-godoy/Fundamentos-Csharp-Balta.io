@@ -840,6 +840,13 @@ if(condição) { // Caso seja verdaeiro
 } else { // Se não aocntecer nenhuma das anteriores
       ...
 }
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ESTRUTURAS CONDICIONAIS SWITCH:
+- Utilizado quando temos muitas decisões.
+- Executado em cascata.
+- Devemos para manualmente a execução com o comando break;
+- Possui uma execução padrão chamada default.
 
 
   
