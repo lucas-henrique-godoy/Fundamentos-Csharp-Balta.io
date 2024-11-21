@@ -736,7 +736,13 @@ x += 5;     // x = x + 5;
 x -= 1;    // x = x - 1;
 x *= 10;  // x = * 10;
 x /= 2;  // x = x / 2;
+_______________________________________________________________________________________________________________________________________________________________________
 
+* OPERADORES DE COMPARAÇÃO:
+- Podemos comparar qualquer tipo de dado.
+  - Números, strings, bytes.
+- Acomparação SEMPRE retorna verdadeiro ou falso.
+  - True ou False.
 
   
 
