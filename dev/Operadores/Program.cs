@@ -4,32 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        int idade = 18;
-        int maioridade = 21;
-        int idadeMaxima = 65;
-
-        if (idade >= maioridade)
+        string jogo = "God Of War";
+        switch (jogo)
         {
-            Console.WriteLine("É diferente");
-            
+            case "Call Of Duty": Console.WriteLine("Não é o jogo correto!"); break;
+            case "Black": Console.WriteLine("Não é o jogo correto!"); break;
+            case "God Of War": Console.WriteLine("É este!"); break;
+            default: Console.WriteLine("Jogo não encontrado!"); break;
         }
-        else if(idade > 25)
-        {
-            System.Console.WriteLine("É igual");
-        }
-        else if(idade >= 32)
-        {
-            System.Console.WriteLine("É igual");
-        }
-        else if(idade >= 38)
-        {
-            System.Console.WriteLine("É igual");
-        }
-        else
-        {
-            System.Console.WriteLine("É igual");
-        }       
-
-        Console.WriteLine("Finalizou o programa");        
-    }
+        
+    }        
 }
