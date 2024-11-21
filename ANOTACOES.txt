@@ -868,20 +868,20 @@ ________________________________________________________________________________
   - Incremento.
 
 - for (var i = 0; i <= 5; i++)
-
+------------------------------------------------------------------------------------
 EXEMPLOS:
 // Conta de 0 a 5
 for (var i = 0; i <= 5; i++)
     Console.WritLine(i);
-
+------------------------------------------------------------------------------------
 // Conta de 1 a 5
 for (var i = 1; i <= 5; i++)
     Console.WritLine(i);
-
+------------------------------------------------------------------------------------
 // Conta de 0 a 4
 for (var i = 0; i < 5; i++)
     Console.WritLine(i);
-
+------------------------------------------------------------------------------------
 // Conta de 5 a 0
 for (var i = 5; i >= 0; i--)
     Console.WritLine(i);
@@ -892,7 +892,7 @@ ________________________________________________________________________________
 - Definido pela palavra while.
 - Exige apenas uma condição.
 - Checa a condição ANTES de executar.
-
+------------------------------------------------------------------------------------
 EXEMPLO 1:
 var valor = 0;
 // Conta de 0 a 5
@@ -902,7 +902,7 @@ while (valor <= 5)
    Console.WriteLine(valor);
    valor++;
 }
-
+------------------------------------------------------------------------------------
 EXEMPLO 2:
 valor = 0;
 // Conta de 0 a 5
@@ -912,7 +912,7 @@ while (valor <= 5)
   valor++;
   Console.WriteLine(valor);
 }
-
+------------------------------------------------------------------------------------
 EXEMPLO 3:
 valor = 0;
 // Infinito
@@ -921,7 +921,20 @@ while (true)
   valor++;
   Console.WriteLine(valor);
 }
+_______________________________________________________________________________________________________________________________________________________________________
 
+* LAÇOS DE REPETIÇÃO: DO
+- Tradução: "Faça", ou seja,  realiza uma ação enquanto...
+- Definido pela palavra do/while
+- Exige apenas uma condição no while
+- Checa a condição DEPOIS de executar
+
+var valor = 0;
+do 
+{
+    Console.WriteLine("Teste");
+    valor++;
+} while (valor < 5);
 
 
 

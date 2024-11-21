@@ -21,7 +21,7 @@ class Program
         }
         */
 
-        int valor =  0;
+        /*int valor =  0;
         while (true)
         {
             
@@ -32,6 +32,14 @@ class Program
             {
                 break;
             }        
-        }        
+        } 
+        */
+
+        int valor = 0;
+        do
+        {
+           Console.WriteLine(valor);
+           valor++;
+        } while (valor <= 5);       
     }        
 }
