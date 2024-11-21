@@ -811,8 +811,36 @@ if(condição) { // Caso seja verdadeiro
        ...
 }
 
+------------------------------------------------------------------------------------
+
 if(condição) // Caso seja verdadeiro
        ...   // Caso só haja uma linha, não precisa de chaves
+------------------------------------------------------------------------------------
+
+if(condição) { // Caso seja verdadeiro
+      ...
+} else { // Caso seja falso
+      ...
+}
+
+------------------------------------------------------------------------------------
+
+if(condição) // Caso seja verdadeiro
+	...  // Caso haja uma linha, não pecisa de chaves
+else // Caso seja falso
+       ...
+------------------------------------------------------------------------------------
+
+if(condição) { // Caso seja verdaeiro
+      ...
+} else if(condição) { // Senão, testa outra condição
+      ...
+} else if(condição) { // Senão, testa outra condição
+      ...
+} else { // Se não aocntecer nenhuma das anteriores
+      ...
+}
+
 
   
 
