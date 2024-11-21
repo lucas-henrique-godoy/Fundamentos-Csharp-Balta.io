@@ -21,12 +21,17 @@ class Program
         }
         */
 
-        int i = 0;
-        while (i <= 10)
+        int valor =  0;
+        while (true)
         {
-            Console.WriteLine(i);
-            i++;
-        }
-        
+            
+            Console.WriteLine(valor);   
+            valor++;            
+
+            if (valor == 101)
+            {
+                break;
+            }        
+        }        
     }        
 }

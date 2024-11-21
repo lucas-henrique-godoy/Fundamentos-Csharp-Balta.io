@@ -913,6 +913,15 @@ while (valor <= 5)
   Console.WriteLine(valor);
 }
 
+EXEMPLO 3:
+valor = 0;
+// Infinito
+while (true)
+{
+  valor++;
+  Console.WriteLine(valor);
+}
+
 
 
 
