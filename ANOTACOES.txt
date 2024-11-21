@@ -744,6 +744,23 @@ ________________________________________________________________________________
 - Acomparação SEMPRE retorna verdadeiro ou falso.
   - True ou False.
 
+- Igual
+  - ==
+
+- Diferente
+  - !=
+
+- Maior que
+  - >
+
+- Menor que
+  - <
+
+- Maior ou igual a 
+  - >=
+
+- Menor ou igual a
+  - <=
   
 
 
