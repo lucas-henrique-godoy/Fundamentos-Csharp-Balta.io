@@ -791,6 +791,22 @@ int x = 12;
 bool entre = (x > 25) && (x < 40); // False
 bool ou = (x > 25) || (x < 40); // True
 bool negação = !(x < 25); // False
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ESTRUTURAS CONDICIONAIS IF:
+- Tradução: "SE" ou seja, "caso alguma condição seja atendida".
+- Utilizado para tomada de decisões.
+- Utiliza os operadores lógicos.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ESTRUTURAS CONDICIONAIS ELSE:
+- Complemento ao if
+- Caso a condição não seja atendida.
+- Podemos ter
+  - else if(condição)
+  - Não tem limites (Mas cuidado!)
+- Podemos ter apenas else para executar algo caso a condição seja atendida.
+
   
 
 
