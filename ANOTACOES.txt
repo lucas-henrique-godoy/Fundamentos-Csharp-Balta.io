@@ -807,6 +807,13 @@ ________________________________________________________________________________
   - Não tem limites (Mas cuidado!)
 - Podemos ter apenas else para executar algo caso a condição seja atendida.
 
+if(condição) { // Caso seja verdadeiro
+       ...
+}
+
+if(condição) // Caso seja verdadeiro
+       ...   // Caso só haja uma linha, não precisa de chaves
+
   
 
 
