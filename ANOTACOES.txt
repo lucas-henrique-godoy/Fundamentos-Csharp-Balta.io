@@ -856,6 +856,36 @@ switch (valor)
     case 3: Console.WriteLine("3"); break;
     default: Console.WriteLine("4"); break; // Se não for 1,2 ou 3
 }
+_______________________________________________________________________________________________________________________________________________________________________
+
+* LAÇO DE REPEETIÇÃO: FOR
+- Tradução "para", ou seja, para cada item em um valor...
+- Executa uma determinada ação várias vezes.
+- Definido pela palavra for
+- Exige 3 parâmetros.
+  - Contador
+  - Condição
+  - Incremento.
+
+- for (var i = 0; i <= 5; i++)
+
+EXEMPLOS:
+// Conta de 0 a 5
+for (var i = 0; i <= 5; i++)
+    Console.WritLine(i);
+
+// Conta de 1 a 5
+for (var i = 1; i <= 5; i++)
+    Console.WritLine(i);
+
+// Conta de 0 a 4
+for (var i = 0; i < 5; i++)
+    Console.WritLine(i);
+
+// Conta de 5 a 0
+for (var i = 5; i >= 0; i--)
+    Console.WritLine(i);
+
 
 
 
