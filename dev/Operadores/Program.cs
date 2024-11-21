@@ -15,9 +15,17 @@ class Program
        */
 
 
-        for (int i = 5; i >= 0; i--)
+        /*for (int i = 5; i >= 0; i--)
         {
             Console.WriteLine(i);
+        }
+        */
+
+        int i = 0;
+        while (i <= 10)
+        {
+            Console.WriteLine(i);
+            i++;
         }
         
     }        

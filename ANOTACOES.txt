@@ -885,6 +885,38 @@ for (var i = 0; i < 5; i++)
 // Conta de 5 a 0
 for (var i = 5; i >= 0; i--)
     Console.WritLine(i);
+_______________________________________________________________________________________________________________________________________________________________________
+
+* LAÇOS DE REPETIÇÃO: WHILE
+- Tradução: "Enquanto", ou seja, enquanto uma condição for verdadeira...
+- Definido pela palavra while.
+- Exige apenas uma condição.
+- Checa a condição ANTES de executar.
+
+EXEMPLO 1:
+var valor = 0;
+// Conta de 0 a 5
+// Exibe de 0 a 5 na tela
+while (valor <= 5)
+{
+   Console.WriteLine(valor);
+   valor++;
+}
+
+EXEMPLO 2:
+valor = 0;
+// Conta de 0 a 5
+// Exibe de 1 a 6 na tela
+while (valor <= 5)
+{
+  valor++;
+  Console.WriteLine(valor);
+}
+
+
+
+
+
 
 
 
