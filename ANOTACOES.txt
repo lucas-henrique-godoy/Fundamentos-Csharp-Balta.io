@@ -957,6 +957,30 @@ static void MeuMetodo(string parametro)
 {
    Console.WriteLine(parametro);
 }
+------------------------------------------------------------------------------------
+
+// Definição do método
+// Retorna uma string e recebe vários parâmetros
+
+static string RetornaNome(string nome, string sobrenome)
+{
+     // Retorna o nome e sobrenome
+     return nome + "" + sobrenome;
+}
+
+
+
+static void Main(string[] args)
+{
+    // Invocação do método
+   // Armazena o resultado em uma variável
+   var nome = RetornaNome("Lucas", "Henrique");
+
+   // Imprime o nome na tela
+   Console.WriteLine(nome);
+}
+
+
 
 
 
