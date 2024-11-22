@@ -1,27 +1,23 @@
-﻿namespace Funcoes;
-
-class Program
+﻿namespace Funcoes
 {
-    static void Main(string[] args)
+    class Program
     {
-        MeuMetodo();
+        static void Main(string[] args)
+        {
+            MeuMetodo();
 
-        string nome = RetornaNome("Lucas", "Henrique");
-        Console.WriteLine(nome);
-    }
+            string nome = RetornaNome("Lucas", "Henrique");
+            Console.WriteLine(nome);
+        }
 
-    static void MeuMetodo()
-    {
-        Console.WriteLine("C# é legal!");
-    }
+        static void MeuMetodo()
+        {
+            Console.WriteLine("C# é legal!"); 
+        }
 
-    static string RetornaNome(
-        string nome,
-        string sobrenome,
-        int idade;
-        )
-    {
-        return nome + " " + sobrenome;
+        static string RetornaNome(string nome, string sobrenome) 
+        {
+            return nome + " " + sobrenome;
+        }
     }
-   
 }

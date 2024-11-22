@@ -38,8 +38,8 @@ class Program
         int valor = 0;
         do
         {
-           Console.WriteLine(valor);
+           ConsolWriteLine(valor);
            valor++;
-        } while (valor <= 5);       
+        } while (valor <= 5);
     }        
 }

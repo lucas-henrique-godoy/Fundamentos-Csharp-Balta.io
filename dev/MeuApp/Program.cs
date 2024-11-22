@@ -66,7 +66,7 @@ namespace MeuApp
             
             
             var texto = "Testando";
-            Console.WriteLine(texto);                       
+            Console.WriteLine(texto);                     
         }       
     }
 }
