@@ -938,7 +938,12 @@ do
 _______________________________________________________________________________________________________________________________________________________________________
 
 * FUNÇÕES ou MÉTODOS:
-- 
+- Podemos segmentar nossoprograma em funções.
+- Também conhecidos como métodos.
+- O mains é um exemplo de método.
+- Possui um retorno, um nome e parâmetros.
+- Esta composição é camada de assinatura.
+- Começam sempre com maiúscula.
 
 
 
