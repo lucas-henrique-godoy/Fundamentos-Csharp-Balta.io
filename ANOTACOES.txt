@@ -980,6 +980,91 @@ static void Main(string[] args)
    Console.WriteLine(nome);
 }
 
+_______________________________________________________________________________________________________________________________________________________________________
+
+* PARÂMETROS QUANDO DEVO OU NÃO USAR?:
+
+A decisão de usar ou não parâmetros em um método depende do comportamento e da lógica que você deseja implementar no método. Em termos gerais, você deve usar parâmetros quando o método precisar de informações externas para realizar suas tarefas. Se o método não precisar de dados externos e seu comportamento for independente, então você pode criar o método sem parâmetros.
+
+Aqui estão algumas diretrizes para entender quando usar ou não parâmetros em um método:
+
+1. Quando usar parâmetros:
+Você deve usar parâmetros quando o comportamento do método depender de valores que não são conhecidos dentro do próprio método, ou seja, quando você precisar passar informações de fora do método para ele.
+
+Exemplos de situações onde é necessário usar parâmetros:
+
+Operações que dependem de entradas específicas: Se o método precisa de dados fornecidos pelo usuário ou por outro código para executar sua lógica, você usará parâmetros. Por exemplo, um método para somar dois números precisa dos números a serem somados.
+
+java
+Copiar código
+public int somar(int a, int b) {
+    return a + b;
+}
+Métodos reutilizáveis e genéricos: Se você quiser que um método seja flexível e reutilizável em várias partes do código com diferentes valores de entrada, você usará parâmetros. Por exemplo, um método que calcula o imposto de um valor qualquer pode usar um parâmetro para representar o valor a ser tributado.
+
+java
+Copiar código
+public double calcularImposto(double valor) {
+    return valor * 0.2;  // 20% de imposto
+}
+Métodos que modificam dados passados: Se o método precisa modificar dados que são passados para ele (como variáveis ou objetos), ele precisará de parâmetros.
+
+java
+Copiar código
+public void incrementarValor(int[] numeros) {
+    for (int i = 0; i < numeros.length; i++) {
+        numeros[i] += 1;
+    }
+}
+2. Quando NÃO usar parâmetros:
+Você pode criar métodos sem parâmetros quando a lógica do método não depende de dados externos ou quando ele lida apenas com valores internos, conhecidos dentro do próprio método.
+
+Exemplos de situações em que não são necessários parâmetros:
+
+Métodos que realizam operações internas e não dependem de entradas externas: Se o método realiza uma operação simples que não necessita de dados externos, você pode omitir os parâmetros. Por exemplo, um método que retorna uma constante ou realiza uma operação interna sem necessidade de dados externos.
+
+java
+Copiar código
+public int obterNumeroMagico() {
+    return 42;  // Retorna sempre o mesmo número
+}
+Métodos que utilizam variáveis internas ou de instância: Se o método faz uso de variáveis de instância (atributos da classe) ou variáveis locais dentro do próprio método, você pode não precisar de parâmetros.
+
+java
+Copiar código
+public int calcularSoma() {
+    int a = 10;
+    int b = 5;
+    return a + b;
+}
+Métodos que alteram o estado do objeto ou fazem tarefas sem necessidade de entradas externas: Em certos casos, o método pode atuar diretamente sobre o estado de um objeto ou realizar ações sem precisar de dados externos. Por exemplo, um método que apenas altera um atributo de uma classe.
+
+java
+Copiar código
+public void resetarContador() {
+    contador = 0;
+}
+Resumo:
+Use parâmetros quando o método precisar de dados externos (entradas) para realizar uma tarefa.
+Não use parâmetros quando o método não depender de dados externos e realizar tarefas com informações internas ou constantes.
+Exemplos práticos:
+Método com parâmetros:
+
+Se você estiver escrevendo um método para calcular o preço total de um pedido, ele precisará de parâmetros como a quantidade de itens e o preço unitário.
+java
+Copiar código
+public double calcularPrecoTotal(int quantidade, double precoUnitario) {
+    return quantidade * precoUnitario;
+}
+Método sem parâmetros:
+
+Se você tiver um método que apenas retorna um valor fixo ou manipula dados internos, você não precisará de parâmetros.
+java
+Copiar código
+public String obterStatus() {
+    return "Em andamento";
+}
+Ao projetar seus métodos, sempre pergunte-se: "Este método precisa de informações externas para fazer seu trabalho?" Se a resposta for sim, use parâmetros. Se não, você pode deixá-los de fora.
 
 
 
