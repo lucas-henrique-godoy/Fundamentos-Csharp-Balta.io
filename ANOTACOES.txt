@@ -945,6 +945,19 @@ ________________________________________________________________________________
 - Esta composição é camada de assinatura.
 - Começam sempre com maiúscula.
 
+static void Main(string[] args)
+{
+     // Invocação do método
+     MeuMetodo("C# é legal!");
+}
+
+
+// Definição do método
+static void MeuMetodo(string parametro)
+{
+   Console.WriteLine(parametro);
+}
+
 
 
 
