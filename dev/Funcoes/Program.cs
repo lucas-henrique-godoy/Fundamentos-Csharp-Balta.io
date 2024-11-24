@@ -1,4 +1,4 @@
-﻿using Internal;
+﻿using System;
 
 namespace Funcoes
 {
@@ -6,7 +6,7 @@ namespace Funcoes
     {
         static void Main(string[] args)
         {
-           
+           MeuMetodo();
         }
 
         static void MeuMetodo()
