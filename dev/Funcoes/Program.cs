@@ -9,7 +9,7 @@
 
         static void MeuMetodo()
         {
-            Console.WriteLine("C# é legal!"); 
+            Console.WriteLine("C# é legal!");
         }
         
               
