@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-           
+           MeuMetodo();
         }
 
-        void MeuMetodo()
+        static void MeuMetodo()
         {
             Console.WriteLine("C# é legal!");           
         }
