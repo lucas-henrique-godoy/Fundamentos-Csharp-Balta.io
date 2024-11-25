@@ -1081,6 +1081,7 @@ ________________________________________________________________________________
 - A memória é dividida em duas partes, Heap e Stack.
 - Heap armazena os dados.
 - Stack armazena as referências(endereço de onde está a informação) para os dados.
+
 - Qualquer tipo no .NET é tratado como
   - Tipo de Referência (Reference Type).
   - Tipo de Valor (Value Type).
