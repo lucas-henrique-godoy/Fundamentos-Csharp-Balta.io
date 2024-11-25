@@ -1095,7 +1095,7 @@ ________________________________________________________________________________
   - O valor será COPIADO.
   - Ambas serão independentes.
 - Built-in, Structs, Enums.
-- Garbage Collector não acessa o Stack.
+- Garbage Collector(Coletor de lixos) não acessa o Stack.
 
 
 
