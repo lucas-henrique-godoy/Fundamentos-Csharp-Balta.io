@@ -1065,6 +1065,9 @@ public String obterStatus() {
     return "Em andamento";
 }
 Ao projetar seus métodos, sempre pergunte-se: "Este método precisa de informações externas para fazer seu trabalho?" Se a resposta for sim, use parâmetros. Se não, você pode deixá-los de fora.
+_______________________________________________________________________________________________________________________________________________________________________
+
+
 
 
 
