@@ -1104,6 +1104,19 @@ Console.WriteLine(y); //25
 x = 32; // Somente x foi alterado
 Console.WriteLine(x); // 32
 Console.WriteLine(y); // 32
+------------------------------------------------------------------------------------
+
+* REFERENCE TYPES:
+- Armazenam o endereço do objeto que contém os dados.
+- Não armazena os dados em si.
+- São armazenados em um local da memória chamado de Heap.
+- Ao assimilar uma variável.
+  - Criará uma referência.
+  - Aponta para a mesma informação.
+  - Não são independentes.
+- Quando não mais utilizados são marcados para exclusão.
+- Garbage Collector passa removendo todos eles.
+- Classes, Objects, Arrays...
 
 
 
