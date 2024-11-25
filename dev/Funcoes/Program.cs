@@ -8,7 +8,7 @@ namespace Funcoes
         {
            MeuMetodo();
 
-           string nome = RetornaNome("Lucas" + " ", "Henrique");
+           string nome = RetornaNome("Lucas", "Henrique");
            Console.WriteLine(nome);
         }
 
@@ -19,7 +19,7 @@ namespace Funcoes
 
         static string RetornaNome(string nome, string sobrenome)
         {
-            return nome + sobrenome;
+            return nome + " " + sobrenome;
         }             
     }
 }
