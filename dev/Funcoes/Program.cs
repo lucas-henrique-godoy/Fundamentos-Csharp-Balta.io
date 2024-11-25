@@ -8,7 +8,7 @@ namespace Funcoes
         {
            MeuMetodo();
 
-           string nome = RetornaNome("Lucas", "Henrique");
+           string nome = RetornaNome("Lucas", "Henrique", 27);
            Console.WriteLine(nome);
         }
 
@@ -17,9 +17,9 @@ namespace Funcoes
             Console.WriteLine("C# é legal!");
         }  
 
-        static string RetornaNome(string nome, string sobrenome)
+        static string RetornaNome(string nome, string sobrenome, int idade)
         {
-            return nome + " " + sobrenome;
+            return nome + " " + sobrenome + " " + idade.ToString();
         }             
     }
 }
