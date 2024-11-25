@@ -1086,7 +1086,7 @@ ________________________________________________________________________________
   - Tipo de Valor (Value Type).
 - Tipos de valor armazenam dados.
 - São armazenados em um local da memória chamada Stack.
-
+------------------------------------------------------------------------------------
 * VALUE TYPES:
 - Quando armazenamos um valor, a memória é alocada.
 - Este espaço armazena o dado criado.
