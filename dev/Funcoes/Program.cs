@@ -20,9 +20,6 @@ namespace Funcoes
         static string RetornaNome(string nome, string sobrenome)
         {
             return nome + sobrenome;
-        }
-
-
-              
+        }             
     }
 }
