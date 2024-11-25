@@ -1202,6 +1202,18 @@ product.Price = 197.23f;
 Console.WriteLine(product.Id);
 Console.WriteLine(product.Tittle);
 Console.WriteLine(product.Price);
+------------------------------------------------------------------------------------
+
+- Método construtor é um método com memo nome da sruct
+
+struct Product
+{
+  public Product(int id, string tittle, float price)
+  {
+     Id = id;
+     Tittle = tittle;
+     Price = price;
+  } 
 
 
 
