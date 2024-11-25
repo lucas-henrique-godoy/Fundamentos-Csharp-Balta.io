@@ -1065,6 +1065,15 @@ public String obterStatus() {
     return "Em andamento";
 }
 Ao projetar seus métodos, sempre pergunte-se: "Este método precisa de informações externas para fazer seu trabalho?" Se a resposta for sim, use parâmetros. Se não, você pode deixá-los de fora.
+
+* OBS: Parâmetros opcionais devem ter o sinal de igual e devem vir Por ultimo nu método. Se na chamado do método for passado um outro valor ao invés do opcional, esse valor é o que será exibido.
+EXEMPLO:
+
+static string RetornaNome(string nome, string sobrenome, int idade = 27)// idade como parâmetro opcional
+        {
+            return nome + " " + sobrenome + " tem " + idade.ToString();
+        }
+ 
 _______________________________________________________________________________________________________________________________________________________________________
 
 
