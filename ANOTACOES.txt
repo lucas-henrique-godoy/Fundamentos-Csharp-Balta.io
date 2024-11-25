@@ -1076,6 +1076,11 @@ static string RetornaNome(string nome, string sobrenome, int idade = 27)// idade
  
 _______________________________________________________________________________________________________________________________________________________________________
 
+* TIPOS DE REFERÊNCIA E TIPOS DE VALOR:
+* HEAP e STACK.
+- A memória é dividida em duas partes, Heap e Stack.
+- Heap armazena os dados.
+- Satack armazena as referências para os dados.
 
 
 
