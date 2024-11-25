@@ -1132,6 +1132,19 @@ Console.WriteLine(arr2[0]);
 arr[0] = "Item Alterado";
 Console.WriteLine(arr[0]);
 Console.WriteLine(arr2[0]);
+_______________________________________________________________________________________________________________________________________________________________________
+
+* STRUCTS:
+- Tipos de do estruturado.
+- Apenas a estrutura, o esqueleto.
+- Tipo de valor.
+- Armazenam apenas outros tipos de dados.
+- Definido pela palavra struct.
+- Composto de propriedades e métodos.
+- Nome sempre com maiúsculo.
+  - O mesmo para propriedades e métodos.
+- Criado a partir da palavra new.
+  - Neste momento sim temos os valores.
 
 
 
