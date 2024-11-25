@@ -1147,6 +1147,7 @@ ________________________________________________________________________________
   - Neste momento sim temos os valores.
 - A anatomia de uma estrutura normalmente é:
 
+* SINTAXE:
 struct Product
 {
     // Propriedades
@@ -1175,10 +1176,32 @@ struct Product
 
     public float PriceInDolar(float dolar)
     {
-      return Price * dólar;
+      return Price * dolar;
     }
 
 }
+------------------------------------------------------------------------------------
+
+* Para criar uma estrutura:
+
+static void Main(string[] args)
+{
+   // Cria uma estrutura
+   var product = new Product();
+}
+------------------------------------------------------------------------------------
+
+- Vem com dados dos tipos padrão.
+- Para preencher os dados.
+
+* OUTRO EXEMPLO:
+var product = new Product();
+product.Id = 1;
+product.Tittle = "Mouse gamer";
+product.Price = 197.23f;
+Console.WriteLine(product.Id);
+Console.WriteLine(product.Tittle);
+Console.WriteLine(product.Price);
 
 
 
