@@ -1145,6 +1145,42 @@ ________________________________________________________________________________
   - O mesmo para propriedades e métodos.
 - Criado a partir da palavra new.
   - Neste momento sim temos os valores.
+- A anatomia de uma estrutura normalmente é:
+
+struct Product
+{
+    // Propriedades
+
+    // Métodos
+}
+
+------------------------------------------------------------------------------------
+* A anatomia de uma propriedade:
+
+struct Product
+{
+    // Propriedades
+    public int Id;
+
+    // Métodos
+}
+------------------------------------------------------------------------------------
+
+* A anatomia de um método:
+
+struct Product
+{
+    public int Id;
+    public float Price;
+
+    public float PriceInDolar(float dolar)
+    {
+      return Price * dólar;
+    }
+
+}
+
+
 
 
 
