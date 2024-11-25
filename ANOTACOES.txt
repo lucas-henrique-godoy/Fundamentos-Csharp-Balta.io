@@ -1097,6 +1097,14 @@ ________________________________________________________________________________
 - Built-in, Structs, Enums.
 - Garbage Collector(Coletor de lixos) não acessa o Stack.
 
+int x = 25;
+int y = x; // y é uma cópia de x.
+Console.WriteLine(x); // 25
+Console.WriteLine(y); //25
+x = 32; // Somente x foi alterado
+Console.WriteLine(x); // 32
+Console.WriteLine(y); // 32
+
 
 
 
