@@ -1134,7 +1134,7 @@ Console.WriteLine(arr[0]);
 Console.WriteLine(arr2[0]);
 _______________________________________________________________________________________________________________________________________________________________________
 
-* STRUCTS:
+* STRUCTS: Devem ser criados forra do Main e fora da classe.
 - Tipos de do estruturado.
 - Apenas a estrutura, o esqueleto.
 - Tipo de valor.
