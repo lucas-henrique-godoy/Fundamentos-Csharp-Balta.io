@@ -1204,7 +1204,7 @@ Console.WriteLine(product.Tittle);
 Console.WriteLine(product.Price);
 ------------------------------------------------------------------------------------
 
-- Método construtor é um método com memo nome da sruct
+- Método construtor é um método com mesmo nome da sruct.
 
 struct Product
 {
