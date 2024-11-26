@@ -1202,10 +1202,11 @@ product.Price = 197.23f;
 Console.WriteLine(product.Id);
 Console.WriteLine(product.Tittle);
 Console.WriteLine(product.Price);
-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Método construtor é um método com mesmo nome da sruct.
+* OBS: Sempre que encontrarmos um método com o mesmo nome da classe ou estrutura e que não tem retorno, esse é um método construtor. Ele sempre é executado quando a struct é criada, ou seja, toda vez que você as um new para criar uma nova struct ele irá passar por esse método construtor, esse método vai sempre ser chamado. Então se precisarmos inicializar algum valor, esse é o local correto.
 
+- Método construtor é um método com mesmo nome da struct.
 struct Product
 {
   public Product(int id, string tittle, float price)
@@ -1214,6 +1215,15 @@ struct Product
      Tittle = tittle;
      Price = price;
   } 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Eles facilitam a criação de estruturas
+var product = new Produto(1, "Mouse Gamer", 128.75f);
+Console.WriteLine(product.Id);
+Console.WriteLine(product.Tittle);
+Console.WriteLine(product.Price);
+Console.WriteLine(product.PriceInDolar(5.70f));
+
 
 
 
