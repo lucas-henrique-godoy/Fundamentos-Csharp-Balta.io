@@ -1,20 +1,15 @@
-﻿namespace Structs;
+﻿using System;
 
-class Program
+namespace Structs
 {
-    static void Main(string[] args)
+    class Program
     {
-        struct Product
+        static void Main(string[] args)
         {
-            public int Id;
-            public float Price;
-
-            public float PriceInDolar(float dolar)
-            {
-                return Price * dolar;
-            }
-
-
+            
         }
-    }
+   }
 }
+
+
+
