@@ -1223,6 +1223,22 @@ Console.WriteLine(product.Id);
 Console.WriteLine(product.Tittle);
 Console.WriteLine(product.Price);
 Console.WriteLine(product.PriceInDolar(5.70f));
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ENUMERADORES: É UM INTEIRO QUE:
+- Usado para fornecer uma melhor visualização do código.
+- Substituem o uso de inteiros.
+- Usados em listas curtas.
+- Usados em dados fixos.
+  - Hard Coded.
+- Sempre maiúsculo.
+  - Começar com a letra E.
+
+* ANATOMIA DE UM ENUMERADOR:
+enum EEstadoCivil
+{
+     // Enumeradores 
+}
 
 
 
