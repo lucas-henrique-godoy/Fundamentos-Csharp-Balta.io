@@ -18,7 +18,9 @@ namespace Calculator
             
             float resultado = v1 + v2;
             Console.WriteLine("O resultado da soma é: " + resultado); // Concatenação
-            Console.WriteLine($"O resultado da soma é: {resultado}"); // Interpolação          
+            Console.WriteLine($"O resultado da soma é: {resultado}"); // Interpolação
+            Console.WriteLine($"O resultado da soma é: {v1 + v2}"); // Outro exemplo de Interpolação
+
         }
     }
 }
