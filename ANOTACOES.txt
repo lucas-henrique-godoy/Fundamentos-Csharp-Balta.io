@@ -1225,7 +1225,7 @@ Console.WriteLine(product.Price);
 Console.WriteLine(product.PriceInDolar(5.70f));
 _______________________________________________________________________________________________________________________________________________________________________
 
-* ENUMERADORES: É UM INTEIRO QUE:
+* ENUMS (ENUMERADORES): É UM INTEIRO QUE:
 - Usado para fornecer uma melhor visualização do código.
 - Substituem o uso de inteiros.
 - Usados em listas curtas.
@@ -1239,6 +1239,36 @@ enum EEstadoCivil
 {
      // Enumeradores 
 }
+----------------------------------------------------------------------
+
+enum EEstadoCivil
+{
+   Solteiro = 1;
+   Casado = 2;
+   Divorciado = 3;
+}
+
+----------------------------------------------------------------------
+
+* USO DE UM ENUMERADOR:
+struct Cliente 
+{
+    public string Nome;
+    public EEstadoCivil EstadoCivil;
+}
+
+
+// Sem enumeradores
+// var = new Cliente("João Silva", 1);
+
+// Com enumerador
+var cliente = new Cliente("João Silva, EEstadoCivil.Casado");
+----------------------------------------------------------------------
+
+* EXIBINDO DADOS DE UM ENUMERADOR:
+Console.WriteLine(cliente.Nome);
+Console.WriteLine(cliente.EstadoCivil); // Escreve casado
+Console.WriteLine((int)cliente.EstadoCivil); // Escreve 2
 
 
 
