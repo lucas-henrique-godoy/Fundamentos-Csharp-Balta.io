@@ -75,3 +75,4 @@ namespace Stopwatch  // Declaração do namespace "Stopwatch", que é o nome do 
         }
     }
 }
+/*Este código implementa um cronômetro simples que permite ao usuário contar o tempo em segundos ou minutos. O usuário define o tempo no formato "10s" ou "1m", e o programa começa a contagem até o tempo especificado.*/
