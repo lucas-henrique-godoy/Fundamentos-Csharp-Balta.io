@@ -37,7 +37,7 @@ namespace TextEditor
 
         static void Abrir()
         {
-            //System.IO.File.Open();
+            
         }
 
         static void Editar()
@@ -49,10 +49,21 @@ namespace TextEditor
 
             do
             {
-               text += 
+               text += Console.ReadLine();
+               text += Environment.NewLine; 
             }
-            while (Console.ReadKey().Key != ConsoleKey.Escape)
+            while (Console.ReadKey().Key != ConsoleKey.Escape);
+            Console.Write(text);
             
+        }
+    
+        static void Salvar(string text)
+        {
+            Console.Clear();
+            Console.WriteLine("Qual caminho para salvar o arquivo?");
+            var path = Console.ReadLine();
+
+            new StreamWriter
         }
     }
 }
