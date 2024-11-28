@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-
 
 namespace TextEditor
 {
@@ -29,7 +27,7 @@ namespace TextEditor
                     Abrir();
                     break;
                 case 2:
-                    Criar();
+                    Editar();
                     break;                
                 default:
                     Menu();
@@ -42,9 +40,19 @@ namespace TextEditor
             //System.IO.File.Open();
         }
 
-        static void Criar()
+        static void Editar()
         {
-            //System.IO.File.Create();
+            Console.Clear();
+            Console.WriteLine("Digite seu texto abaixo (ESC para sair)");
+            Console.WriteLine("---------------------------------");
+            string text = "";
+
+            do
+            {
+               text += 
+            }
+            while (Console.ReadKey().Key != ConsoleKey.Escape)
+            
         }
     }
 }
