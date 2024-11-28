@@ -19,7 +19,7 @@ namespace Cronomettro
             Console.WriteLine("Quanto tempo deseja contar?");
 
             string dados = Console.ReadLine().ToLower();
-            char tipo = char.Parse(dados.Substring(dados.Length -1));
+            char tipo = char.Parse(dados.Substring(dados.Length -1, 1));
             int tempo = int.Parse(dados.Substring(0, dados.Length - 1));
             int multiplicador = 1;
 
@@ -33,10 +33,7 @@ namespace Cronomettro
                 System.Environment.Exit(0);
             }
             
-            PreStart(tempo * multiplicador);
-
-
-           
+            PreStart(tempo * multiplicador);           
         }
 
         static void PreStart(int tempo)
