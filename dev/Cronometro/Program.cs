@@ -20,9 +20,36 @@ namespace Cronomettro
 
             string dados = Console.ReadLine().ToLower();
             char tipo = char.Parse(dados.Substring(dados.Length -1));
-            short tempo = short.Parse(dados.Substring(0, dados.Length - 1));
+            int tempo = int.Parse(dados.Substring(0, dados.Length - 1));
+            int multiplicador = 1;
+
+            if(tipo == 'm')
+            {
+                multiplicador = 60;
+            }
+
+            if(tempo == 0)
+            {
+                System.Environment.Exit(0);
+            }
+            
+            PreStart(tempo * multiplicador);
+
 
            
+        }
+
+        static void PreStart(int tempo)
+        {
+            Console.Clear();
+            Console.WriteLine("Ready...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Set...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Go...");
+            Thread.Sleep(2500);
+
+            Start(tempo);
         }
 
         static void Start(int time)
@@ -40,6 +67,7 @@ namespace Cronomettro
             Console.Clear();
             Console.WriteLine("Cronômetro finalizado");
             Thread.Sleep(2500);
+            Menu();
         }
     }
 }
