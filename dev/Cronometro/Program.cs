@@ -19,6 +19,10 @@ namespace Cronomettro
             Console.WriteLine("Quanto tempo deseja contar?");
 
             string dados = Console.ReadLine().ToLower();
+            char tipo = char.Parse(dados.Substring(dados.Length -1));
+            short tempo = short.Parse(dados.Substring(0, dados.Length - 1));
+
+           
         }
 
         static void Start(int time)
