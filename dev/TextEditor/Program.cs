@@ -63,7 +63,10 @@ namespace TextEditor
             Console.WriteLine("Qual caminho para salvar o arquivo?");
             var path = Console.ReadLine();
 
-            new StreamWriter
+            using ()
+            {
+
+            }
         }
     }
 }
