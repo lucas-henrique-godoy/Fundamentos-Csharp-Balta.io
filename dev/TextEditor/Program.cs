@@ -63,7 +63,7 @@ namespace TextEditor
             Console.WriteLine("Qual caminho para salvar o arquivo?");
             var path = Console.ReadLine();
 
-            using ()
+            using (var ) // Usa, cria e fecha o objeto automaticamente seja arquivos, banco de dados e é usado também para importar namespaces 
             {
 
             }
