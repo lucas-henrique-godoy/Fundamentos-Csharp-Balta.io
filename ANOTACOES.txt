@@ -1378,6 +1378,7 @@ Resumo:
 Sim, o using em C# é usado para abrir e fechar recursos de forma automática e segura, garantindo que tudo seja liberado corretamente quando não for mais necessário. Isso é particularmente útil para gerenciar conexões de banco de dados, arquivos, e outros recursos que exigem um controle explícito de abertura e fechamento.
 _______________________________________________________________________________________________________________________________________________________________________
 
+* STRINGS:
 
 
 
