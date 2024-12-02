@@ -1391,6 +1391,7 @@ USOS COMUNS:
 - Identificação única de objetos em sistemas distribuídos.
 - Tokens de autenticação.
 GUIDs são úteis para evitar colisões de identificadores, mas ocupam mais espaço (16 bytes) em comparação com inteiros e podem ter um desempenho ligeiramente inferior.
+_______________________________________________________________________________________________________________________________________________________________________
 
 
 
