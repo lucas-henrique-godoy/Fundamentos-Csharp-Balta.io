@@ -1379,7 +1379,18 @@ Sim, o using em C# é usado para abrir e fechar recursos de forma automática e 
 _______________________________________________________________________________________________________________________________________________________________________
 
 * STRINGS:
-* GUIDS:
+* GUID: Em C#, um GUID (Globally Unique Identifier) é um identificador único de 128 bits, representado como uma string de 32 caracteres hexadecimais. Ele é usado para garantir a unicidade de objetos, registros ou instâncias, especialmente em sistemas distribuídos.
+
+Para gerar um GUID em C#, usa-se o método Guid.NewGuid():
+
+Guid novoGuid = Guid.NewGuid();
+Console.WriteLine(novoGuid);
+
+USOS COMUNS:
+- Chaves primárias em bancos de dados.
+- Identificação única de objetos em sistemas distribuídos.
+- Tokens de autenticação.
+GUIDs são úteis para evitar colisões de identificadores, mas ocupam mais espaço (16 bytes) em comparação com inteiros e podem ter um desempenho ligeiramente inferior.
 
 
 
