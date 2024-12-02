@@ -1419,7 +1419,36 @@ bool existe = texto.Contains("mundo"); // existe será true, porque "mundo" est�
 RESUMINDO:
 CompareTo: Compara dois objetos e retorna um valor que indica a ordem entre eles.
 Contains: Verifica se um elemento ou substring existe em uma coleção ou string.
+_______________________________________________________________________________________________________________________________________________________________________
 
+* STARTSWITH:
+- Objetivo: Verifica se a string começa com uma substring específica.
+Retorno: Retorna true se a string começar com a substring fornecida, caso contrário, retorna false.
+Sensível a maiúsculas/minúsculas: Por padrão, o método é sensível a maiúsculas e minúsculas. Você pode usar uma sobrecarga para ignorar essa diferenciação.
+Exemplo:
+
+string texto = "Exemplo de texto";
+Console.WriteLine(texto.StartsWith("Exemplo")); // Saída: true
+Console.WriteLine(texto.StartsWith("exemplo")); // Saída: false (sensível ao caso) 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* ENDSWITH:
+- Objetivo: Verifica se a string termina com uma substring específica.
+Retorno: Retorna true se a string terminar com a substring fornecida, caso contrário, retorna false.
+Sensível a maiúsculas/minúsculas: Por padrão, o método também é sensível a maiúsculas e minúsculas. Há uma sobrecarga para fazer uma comparação ignorando o caso.
+Exemplo:
+
+string texto = "Exemplo de texto";
+Console.WriteLine(texto.EndsWith("texto")); // Saída: true
+Console.WriteLine(texto.EndsWith("Texto")); // Saída: false (sensível ao caso)
+
+Sobre as sobrecargas:
+Ambos os métodos (StartsWith e EndsWith) possuem uma sobrecarga que permite especificar um tipo de comparação, como StringComparison.CurrentCultureIgnoreCase, para ignorar diferenças de maiúsculas e minúsculas.
+
+Exemplo com comparação que ignora o caso:
+
+Console.WriteLine(texto.StartsWith("exemplo", StringComparison.OrdinalIgnoreCase)); // Saída: true
+Console.WriteLine(texto.EndsWith("TEXTO", StringComparison.OrdinalIgnoreCase)); // Saída: true
 
 
 
