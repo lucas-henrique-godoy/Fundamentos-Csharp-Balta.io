@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace MyApp
+namespace Guids
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Criando um novo identificador único global (GUID) aleatório
+             // Criando um novo identificador único global (GUID) aleatório
             var id = Guid.NewGuid(); 
             id.ToString(); // Convertendo o GUID para string, mas sem usá-lo. Este passo pode ser omitido se não for necessário.
 
