@@ -14,8 +14,9 @@ namespace ComparacaoDeStrings
             Console.WriteLine(texto.CompareTo("Testando"));  // Saída: 0
 
             // CompareTo compara 'texto' com "testando".
-            // Como "Testando" (com 'T' maiúsculo) vem antes de "testando" (com 't' minúsculo), o retorno será negativo.
-            Console.WriteLine(texto.CompareTo("testando"));  // Saída: um valor negativo (< 0)
+            // Como "Testando" (com 'T' maiúsculo) vem antes de "testando" (com 't' minúsculo),
+            // o retorno será negativo (porque 'T' é considerado menor que 't' em uma comparação lexicográfica).
+            Console.WriteLine(texto.CompareTo("testando"));  // Saída: valor negativo (< 0)
 
             // Agora, definindo uma nova string para demonstrar o uso do Contains
             var texto2 = "Este texto é um teste";
@@ -33,6 +34,11 @@ namespace ComparacaoDeStrings
             // O StringComparison.CurrentCultureIgnoreCase ignora a diferenciação entre maiúsculas e minúsculas.
             // Como estamos ignorando o caso, a comparação será 'true', pois "Teste" e "teste" são considerados iguais.
             Console.WriteLine(texto2.Contains("teste", StringComparison.CurrentCultureIgnoreCase));  // Saída: True
+            
+            // Verificando o caso onde o parâmetro passado para Contains é null
+            // Isso lançaria uma exceção se tentássemos comparar uma string com null.
+            // Nesse caso, 'Contains' irá retornar 'False' porque uma string não pode conter 'null'.
+            Console.WriteLine(texto2.Contains(null));  // Saída: False (não pode conter null)
         }
     }
 }
