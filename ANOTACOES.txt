@@ -1393,8 +1393,32 @@ USOS COMUNS:
 GUIDs são úteis para evitar colisões de identificadores, mas ocupam mais espaço (16 bytes) em comparação com inteiros e podem ter um desempenho ligeiramente inferior.
 _______________________________________________________________________________________________________________________________________________________________________
 
+* COMPARE TO: O método CompareTo é utilizado para comparar o valor de um objeto com outro.
+Retorna um valor inteiro:
+Valor negativo: Se o objeto atual é "menor" que o outro objeto.
+Valor zero: Se o objeto atual é igual ao outro objeto.
+Valor positivo: Se o objeto atual é "maior" que o outro objeto.
+Este método é comumente usado com tipos que implementam a interface IComparable, como strings, números e datas.
+Exemplo:
 
+csharp
+Copiar código
+int result = 5.CompareTo(10); // result será negativo (-1) porque 5 é menor que 10
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* CONTAINS: O método Contains é usado para verificar se um determinado elemento existe dentro de uma coleção ou estrutura de dados, como listas, arrays ou strings.
+Retorna um valor booleano (true ou false):
+true: Se o elemento ou substring for encontrado.
+false: Caso contrário.
+
+Exemplo:
+string texto = "Olá, mundo!";
+bool existe = texto.Contains("mundo"); // existe será true, porque "mundo" está na string
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RESUMINDO:
+CompareTo: Compara dois objetos e retorna um valor que indica a ordem entre eles.
+Contains: Verifica se um elemento ou substring existe em uma coleção ou string.
 
 
 
