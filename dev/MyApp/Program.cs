@@ -6,8 +6,8 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            var 
-            Console.WriteLine("Hello, World!");
+            var id = Guid.NewGuid();
+            Console.WriteLine(id);
         }
     }
 }
