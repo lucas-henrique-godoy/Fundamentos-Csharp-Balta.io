@@ -1486,6 +1486,57 @@ public class Pessoa
 Nessa sobrecarga, duas instâncias da classe Pessoa serão consideradas iguais se seus nomes forem iguais.
 
 Dica: Ao sobrecarregar Equals, é importante também sobrecarregar o método GetHashCode, para garantir que objetos iguais tenham o mesmo código hash, especialmente quando usados em coleções como HashSet ou Dictionary.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ÍNDICES: Em C#, índices são usados para acessar elementos de coleções como arrays, listas e strings. O índice é uma posição numérica que indica a localização de um item dentro da coleção.
+
+Principais Aspectos sobre Índices:
+
+Arrays: O índice começa em 0 e vai até o tamanho do array menos 1.
+
+int[] arr = { 10, 20, 30 };
+Console.WriteLine(arr[0]); // Saída: 10
+Listas:
+
+Semelhante aos arrays, as listas também utilizam índices.
+
+List<int> lista = new List<int> { 10, 20, 30 };
+Console.WriteLine(lista[1]); // Saída: 20
+Índice de Valor (Introduzido no C# 8.0):
+
+Permite acessar elementos a partir do final da coleção, usando o ^.
+
+int[] arr = { 10, 20, 30, 40 };
+Console.WriteLine(arr[^1]); // Saída: 40 (último elemento)
+Strings:
+
+Strings podem ser indexadas como arrays de caracteres.
+
+string texto = "CSharp";
+Console.WriteLine(texto[0]); // Saída: 'C'
+Métodos IndexOf e LastIndexOf:
+IndexOf: Localiza a primeira ocorrência de um valor em uma coleção (array, lista, ou string). Retorna o índice da primeira ocorrência ou -1 se não encontrar.
+
+int[] arr = { 10, 20, 30, 40, 30 };
+Console.WriteLine(Array.IndexOf(arr, 30)); // Saída: 2
+LastIndexOf: Localiza a última ocorrência de um valor em uma coleção. Retorna o índice da última ocorrência ou -1 se não encontrar.
+
+int[] arr = { 10, 20, 30, 40, 30 };
+Console.WriteLine(Array.LastIndexOf(arr, 30)); // Saída: 4
+Exemplos com Strings:
+IndexOf: Retorna o índice da primeira ocorrência de um caractere ou substring.
+
+string texto = "CSharp";
+Console.WriteLine(texto.IndexOf('S')); // Saída: 1
+LastIndexOf: Retorna o índice da última ocorrência de um caractere ou substring.
+
+string texto = "Aprenda CSharp!";
+Console.WriteLine(texto.LastIndexOf("CSharp")); // Saída: 8
+
+Resumo:
+Índices são fundamentais para acessar elementos em coleções.
+IndexOf encontra a primeira ocorrência e LastIndexOf encontra a última ocorrência de um valor em coleções.
+Ambos retornam o índice do valor ou -1 se não encontrado.
 
 
 
