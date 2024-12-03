@@ -1448,6 +1448,43 @@ Exemplo com comparação que ignora o caso:
 
 Console.WriteLine(texto.StartsWith("exemplo", StringComparison.OrdinalIgnoreCase)); // Saída: true
 Console.WriteLine(texto.EndsWith("TEXTO", StringComparison.OrdinalIgnoreCase)); // Saída: true
+_______________________________________________________________________________________________________________________________________________________________________
+
+* EQUALS: Em C#, o método Equals é usado para comparar dois objetos e determinar se eles são iguais. Ele pode ser sobrecarregado para fornecer diferentes lógicas de comparação, dependendo do tipo de objeto.
+
+Por padrão, o método Equals compara as referências dos objetos (ou seja, verifica se os dois objetos apontam para o mesmo local na memória). No entanto, muitas classes em C# (como string, int, etc.) sobrecarregam o método Equals para realizar uma comparação baseada no conteúdo dos objetos, e não nas referências.
+
+Exemplo básico:
+
+csharp
+Copiar código
+int a = 5;
+int b = 5;
+Console.WriteLine(a.Equals(b));  // Retorna true, porque os valores são iguais
+Para objetos personalizados, você pode sobrecarregar o método Equals para definir como os objetos devem ser comparados:
+
+public class Pessoa
+{
+    public string Nome { get; set; }
+
+    public override bool Equals(object obj)
+    {
+        if (obj is Pessoa outraPessoa)
+        {
+            return this.Nome == outraPessoa.Nome;
+        }
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return Nome?.GetHashCode() ?? 0;
+    }
+}
+
+Nessa sobrecarga, duas instâncias da classe Pessoa serão consideradas iguais se seus nomes forem iguais.
+
+Dica: Ao sobrecarregar Equals, é importante também sobrecarregar o método GetHashCode, para garantir que objetos iguais tenham o mesmo código hash, especialmente quando usados em coleções como HashSet ou Dictionary.
 
 
 
