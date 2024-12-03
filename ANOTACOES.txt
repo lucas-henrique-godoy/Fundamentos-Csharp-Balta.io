@@ -1734,6 +1734,8 @@ sb.Append("Número: ");
 sb.Append(42);  // Adiciona o número 42 como string
 Console.WriteLine(sb.ToString());  // Saída: Número: 42
 Neste exemplo, Append(42) adiciona o número 42, automaticamente convertido para "42", à string.
+_______________________________________________________________________________________________________________________________________________________________________
+
 
 
 
