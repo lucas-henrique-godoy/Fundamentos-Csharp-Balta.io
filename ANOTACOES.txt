@@ -1636,6 +1636,40 @@ Console.WriteLine(tamanho); // Saída: 7
 RESUMO:
 Remove(): Remove uma parte da string, começando de um índice específico e, opcionalmente, removendo um número definido de caracteres.
 Length: Retorna o número total de caracteres em uma string.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* REPLACE(): Substitui todas as ocorrências de um valor por outro em uma string.
+Exemplo:
+csharp
+Copiar código
+string texto = "Olá Mundo!";
+string resultado = texto.Replace("Mundo", "C#"); // "Olá C#!"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*SPLIT(): Divide uma string em um array de substrings com base em um delimitador especificado.
+Exemplo:
+csharp
+Copiar código
+string texto = "maçã,banana,laranja";
+string[] partes = texto.Split(','); // ["maçã", "banana", "laranja"]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* SUBSTRING(): Retorna uma parte de uma string, começando em um índice especificado e com um comprimento opcional.
+Exemplo:
+csharp
+Copiar código
+string texto = "Exemplo";
+string parte = texto.Substring(1, 4); // "xemp"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* TRIM(): Remove espaços em branco do início e do fim de uma string.
+Exemplo:
+csharp
+Copiar código
+string texto = "  Olá Mundo!  ";
+string resultado = texto.Trim(); // "Olá Mundo!"
+
+ 
 
 
 
