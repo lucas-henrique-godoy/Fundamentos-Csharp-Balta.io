@@ -29,5 +29,7 @@ class Program // Define a classe "Program"
         Console.WriteLine(resultado); // Imprime a substring extraída, que é "texto"
         
         Console.WriteLine(texto.Trim()); // Remove os espaços em branco no início e no final da string "texto" e imprime: "Este texto é um teste"
+
+        
     }
 }
