@@ -1401,8 +1401,6 @@ Valor positivo: Se o objeto atual é "maior" que o outro objeto.
 Este método é comumente usado com tipos que implementam a interface IComparable, como strings, números e datas.
 Exemplo:
 
-csharp
-Copiar código
 int result = 5.CompareTo(10); // result será negativo (-1) porque 5 é menor que 10
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1419,6 +1417,7 @@ bool existe = texto.Contains("mundo"); // existe será true, porque "mundo" est�
 RESUMINDO:
 CompareTo: Compara dois objetos e retorna um valor que indica a ordem entre eles.
 Contains: Verifica se um elemento ou substring existe em uma coleção ou string.
+- StringComparison.OrdinalIgnoreCase :Igonora o Case sensitive.
 _______________________________________________________________________________________________________________________________________________________________________
 
 * STARTSWITH:
