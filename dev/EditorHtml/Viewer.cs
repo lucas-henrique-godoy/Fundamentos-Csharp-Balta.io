@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 
 namespace EditorHtml
 {
@@ -20,7 +21,7 @@ namespace EditorHtml
 
         public static void Replace(string text)
         {
-            var strong = new Regex(@"<\s*trong[^>]*>(.*?)<\s*/\s*trong>");
+            var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
             Console.WriteLine(strong);
         }
     }
