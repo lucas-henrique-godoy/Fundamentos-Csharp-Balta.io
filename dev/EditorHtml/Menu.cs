@@ -64,8 +64,7 @@ namespace EditorHtml
             Console.SetCursorPosition(3, 10);
             Console.Write("Opção: ");
         }
-
-
+        
         public static void HandleMenuOption(short option)
         {
             switch (option)
@@ -74,7 +73,7 @@ namespace EditorHtml
                     Editor.Show();
                     break;
                 case 2:
-                    System.Console.WriteLine("View");
+                    Console.WriteLine("View");
                     break;
                 case 0: 
                 {

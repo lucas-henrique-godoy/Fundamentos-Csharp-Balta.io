@@ -21,8 +21,9 @@ namespace EditorHtml
             var file = new StringBuilder();
 
             do
-            {file.Append(Console.ReadLine());
-            file.Append(Environment.NewLine);
+            {
+                file.Append(Console.ReadLine());
+                file.Append(Environment.NewLine);
             } while (Console.ReadKey().Key != ConsoleKey.Escape);
 
             Console.WriteLine("---------------");
