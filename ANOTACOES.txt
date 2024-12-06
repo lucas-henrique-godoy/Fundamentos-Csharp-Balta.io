@@ -1736,7 +1736,7 @@ Console.WriteLine(sb.ToString());  // Saída: Número: 42
 Neste exemplo, Append(42) adiciona o número 42, automaticamente convertido para "42", à string.
 _______________________________________________________________________________________________________________________________________________________________________
 
-* DATAIME: Em C#, o DateTime é uma estrutura que representa um ponto no tempo, combinando a data (ano, mês, dia) e a hora (hora, minuto, segundo, milissegundo). O tipo DateTime é muito utilizado para manipulação e formatação de datas e horas.
+* DATATIME: Em C#, o DateTime é uma estrutura que representa um ponto no tempo, combinando a data (ano, mês, dia) e a hora (hora, minuto, segundo, milissegundo). O tipo DateTime é muito utilizado para manipulação e formatação de datas e horas.
 
 O Tipo DateTime em C#
 O DateTime é usado para representar tanto a data quanto a hora, e ele oferece uma série de métodos e propriedades para facilitar a manipulação desses valores.
@@ -1745,113 +1745,84 @@ Criação de um Objeto DateTime
 Você pode criar objetos DateTime de diversas formas:
 
 Data e hora específicas:
-
-csharp
-Copiar código
 DateTime dt1 = new DateTime(2024, 12, 6, 15, 30, 0); // 6 de Dezembro de 2024, 15:30:00
 Console.WriteLine(dt1);  // Saída: 06/12/2024 15:30:00
-Usando o DateTime.Now para obter a data e hora atuais:
 
-csharp
-Copiar código
+Usando o DateTime.Now para obter a data e hora atuais:
 DateTime dt2 = DateTime.Now;  // Pega a data e hora atual do sistema
 Console.WriteLine(dt2);  // Saída: data e hora atual do sistema
-Usando o DateTime.Today para pegar a data atual sem a hora:
 
-csharp
-Copiar código
+Usando o DateTime.Today para pegar a data atual sem a hora:
 DateTime dt3 = DateTime.Today;  // Apenas a data de hoje, hora é 00:00
 Console.WriteLine(dt3);  // Saída: 06/12/2024 00:00:00
+
 Propriedades do DateTime
 O DateTime possui várias propriedades úteis para acessar partes da data e hora:
 
 Year: Obtém o ano da data.
-
-csharp
-Copiar código
 int ano = dt1.Year;
+
 Month: Obtém o mês (1 a 12).
-
-csharp
-Copiar código
 int mes = dt1.Month;
+
 Day: Obtém o dia do mês.
-
-csharp
-Copiar código
 int dia = dt1.Day;
+
 Hour: Obtém a hora do dia.
-
-csharp
-Copiar código
 int hora = dt1.Hour;
+
 Minute: Obtém o minuto.
-
-csharp
-Copiar código
 int minuto = dt1.Minute;
+
 Second: Obtém o segundo.
-
-csharp
-Copiar código
 int segundo = dt1.Second;
+
 DayOfWeek: Obtém o dia da semana como um valor enumerado (Sunday, Monday, etc).
-
-csharp
-Copiar código
 DayOfWeek diaSemana = dt1.DayOfWeek;
-DayOfYear: Obtém o número do dia no ano (1 a 365/366).
 
-csharp
-Copiar código
+DayOfYear: Obtém o número do dia no ano (1 a 365/366).
 int diaDoAno = dt1.DayOfYear;
+
 Métodos Comuns para Manipulação de DateTime
 Adicionar ou subtrair intervalos de tempo:
 
 AddDays(), AddMonths(), AddYears(), AddHours(), etc.
-csharp
-Copiar código
+
 DateTime dtFuturo = dt1.AddDays(10);  // Adiciona 10 dias
 Console.WriteLine(dtFuturo);  // Saída: 16/12/2024 15:30:00
+
 Subtract() para subtrair um DateTime de outro:
-csharp
-Copiar código
 TimeSpan intervalo = dt1.Subtract(dt2);  // Diferença entre duas datas
 Console.WriteLine(intervalo.TotalDays);  // Saída: número total de dias entre as duas datas
-Comparando datas: Você pode usar métodos como Equals(), CompareTo() ou operadores (<, >, ==, etc.) para comparar instâncias de DateTime.
 
-csharp
-Copiar código
+Comparando datas: Você pode usar métodos como Equals(), CompareTo() ou operadores (<, >, ==, etc.) para comparar instâncias de DateTime.
 bool igual = dt1.Equals(dt2);  // Verifica se são iguais
+
 Formatação de DateTime
 Você pode formatar um objeto DateTime em uma string usando o método ToString(). Existem diversos formatos pré-definidos ou você pode criar seu próprio formato.
 
 Formatos predefinidos:
-
-
 DateTime dt = DateTime.Now;
 Console.WriteLine(dt.ToString("yyyy-MM-dd"));  // Formato: 2024-12-06
 Console.WriteLine(dt.ToString("MM/dd/yyyy"));  // Formato: 12/06/2024
 Console.WriteLine(dt.ToString("HH:mm:ss"));  // Formato: 15:30:45
-Formatos personalizados: Você também pode criar um formato específico:
 
-csharp
-Copiar código
+Formatos personalizados: Você também pode criar um formato específico:
 Console.WriteLine(dt.ToString("dddd, dd MMMM yyyy HH:mm:ss"));  // Ex: "Friday, 06 December 2024 15:30:45"
+
 Outras Formatações Comuns:
 d - Data curta (ex: 06/12/2024).
 D - Data longa (ex: Friday, December 6, 2024).
 t - Hora curta (ex: 15:30).
 T - Hora longa (ex: 15:30:45).
+
 Manipulação de Tempo com TimeSpan
 O TimeSpan é usado para representar a diferença entre duas instâncias de DateTime, ou para adicionar ou subtrair períodos de tempo. Por exemplo:
-
-csharp
-Copiar código
 DateTime dt1 = new DateTime(2024, 12, 6, 10, 0, 0);
 DateTime dt2 = new DateTime(2024, 12, 6, 14, 30, 0);
 TimeSpan intervalo = dt2 - dt1;
 Console.WriteLine(intervalo);  // Saída: 04:30:00 (4 horas e 30 minutos)
+
 Conclusão
 Em resumo, o tipo DateTime em C# é extremamente útil para trabalhar com datas e horas. Ele oferece uma ampla gama de funcionalidades para criação, formatação, manipulação e comparação de datas e horas. Além disso, a combinação com o tipo TimeSpan permite manipular intervalos de tempo entre dois pontos no calendário.
 
