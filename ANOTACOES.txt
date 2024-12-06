@@ -1785,7 +1785,6 @@ int diaDoAno = dt1.DayOfYear;
 
 Métodos Comuns para Manipulação de DateTime
 Adicionar ou subtrair intervalos de tempo:
-
 AddDays(), AddMonths(), AddYears(), AddHours(), etc.
 
 DateTime dtFuturo = dt1.AddDays(10);  // Adiciona 10 dias
