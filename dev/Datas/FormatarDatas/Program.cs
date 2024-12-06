@@ -10,7 +10,7 @@ namespace FormatarDatas
 
             var data = DateTime.Now;
 
-            var formatada = String.Format("{0:M}", data);
+            var formatada = String.Format("{0:ss}", data);
             Console.WriteLine(formatada);
         }
     }
