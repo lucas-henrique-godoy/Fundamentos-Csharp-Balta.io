@@ -30,14 +30,27 @@ namespace Timezone
             // Exibe o horário de Auckland convertido no console.
             Console.WriteLine(horaAustralia);
 
+
+
+            //Obtém a lista de todos os fusos horários do sistema.
             var timezones = TimeZoneInfo.GetSystemTimeZones();
+
+            //Itera sobre cada fuso horário na lista de fusos horários obtida.
             foreach (var timezone in timezones)
             {
+                //Exibe o identificador (ID) do fuso horário no console (exemplo: "Pacific/Auckland").
                 Console.WriteLine(timezone.Id);
+
+                //Exibe todas as informações sobre o fuso horário, como nome, UTC offset, etc.
                 Console.WriteLine(timezone);
+
+                //Converte a hora UTC para o horário do fuso horário atual da iteração e exibe no console.
                 Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezone));
+
+                // Exibe uma linha de separação para facilitar a leitura das saídas no console.
                 Console.WriteLine("--------------");
             }
+
         }
     }
 }
