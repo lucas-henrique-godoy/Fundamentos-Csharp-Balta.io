@@ -17,9 +17,7 @@ namespace LocalizacaoDatas
             Console.WriteLine(DateTime.Now.ToString("D", pt)); 
             Console.WriteLine(DateTime.Now.ToString("D", br));         
             Console.WriteLine(DateTime.Now.ToString("D", enUS));         
-            Console.WriteLine(DateTime.Now.ToString("D", de));                 
-            
-            
+            Console.WriteLine(DateTime.Now.ToString("D", de));          
         }
     }
 }
