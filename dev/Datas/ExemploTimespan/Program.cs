@@ -22,6 +22,11 @@ namespace ExemploTimespan
 
             var timeSpanDiaHoraMinutoSegundoMiliSegundo=  new TimeSpan(15, 12, 55, 8, 100);
             System.Console.WriteLine(timeSpanDiaHoraMinutoSegundoMiliSegundo);
+
+            Console.WriteLine(timeSpanHoraMinutoSegundo - timeSpanDiaHoraMinutoSegundo);
+            Console.WriteLine(timeSpanDiaHoraMinutoSegundo.Days);
+            Console.WriteLine(timeSpanDiaHoraMinutoSegundo.Add(new TimeSpan(12, 0, 0)));
+
         }
     }
 }
