@@ -10,6 +10,18 @@ namespace ExemploTimespan
             
             var timeSpan = new TimeSpan();
             Console.WriteLine(timeSpan);
+
+            var timesSpanNanoSegundos = new TimeSpan(1);
+            Console.WriteLine(timesSpanNanoSegundos);
+
+            var timeSpanHoraMinutoSegundo = new TimeSpan(5, 12, 8);
+            Console.WriteLine(timeSpanHoraMinutoSegundo);
+
+            var timeSpanDiaHoraMinutoSegundo = new TimeSpan(3, 5, 50, 10);
+            System.Console.WriteLine(timeSpanDiaHoraMinutoSegundo);
+
+            var timeSpanDiaHoraMinutoSegundoMiliSegundo=  new TimeSpan(15, 12, 55, 8, 100);
+            System.Console.WriteLine(timeSpanDiaHoraMinutoSegundoMiliSegundo);
         }
     }
 }
