@@ -9,9 +9,12 @@ namespace Timezone
             Console.Clear();
 
             var utcDate = DateTime.UtcNow;
-            Console.WriteLine(dateTime);
+            Console.WriteLine(utcDate);
 
-            Console.WriteLine(dateTime.ToLocalTime());
+            Console.WriteLine(utcDate.ToLocalTime());
+
+            var timezoneAustralia = TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
+            Console.WriteLine(timezoneAustralia);
         }
     }
 }

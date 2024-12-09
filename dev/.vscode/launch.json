@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/MeuApp/bin/Debug/net9.0/MeuApp.dll",
             "args": [],
             "cwd": "${workspaceFolder}/MeuApp",
-            "console": "internalConsole",
+            "console": "externalTerminal",
             "stopAtEntry": false
         },
         {
