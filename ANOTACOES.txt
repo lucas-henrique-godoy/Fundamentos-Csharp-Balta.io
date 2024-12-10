@@ -1827,6 +1827,9 @@ Em resumo, o tipo DateTime em C# é extremamente útil para trabalhar com datas 
 _______________________________________________________________________________________________________________________________________________________________________
 
 * MOEDAS: Para preços e salários utilizar como primeira opção o decimal, caso ele não atenda, ou se nós precisarmos de mais performance, neste caso devemos optar por outro tipo de dado.
+- EXEMPLO: 
+decimal valor = 10.25m;            
+Console.WriteLine(valor);
 
 
 
