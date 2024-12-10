@@ -29,9 +29,7 @@ namespace Numbers
             Console.WriteLine(valor.ToString("N", CultureInfo.CreateSpecificCulture("en-US")));
 
             // Exibe o valor como uma porcentagem (P) utilizando a cultura "en-US" (exibe como 1,053,625.00%)
-            Console.WriteLine(valor.ToString("P", CultureInfo.CreateSpecificCulture("en-US")));
-
-            
+            Console.WriteLine(valor.ToString("P", CultureInfo.CreateSpecificCulture("en-US")));            
         }
     }
 }
