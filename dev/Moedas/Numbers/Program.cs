@@ -11,7 +11,6 @@ namespace Numbers
             var valor = 10.25;
             
             Console.WriteLine(valor);
-
         }
     }
 }
