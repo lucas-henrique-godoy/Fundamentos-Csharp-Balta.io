@@ -1839,20 +1839,14 @@ Para declarar um array em C#, é necessário especificar o tipo dos elementos e 
 
 1. Declaração e Inicialização de um Array
 Declaração sem inicialização:
-csharp
-Copiar código
 int[] numeros;
 Aqui, numeros é um array de inteiros. Mas ainda não foi atribuído nenhum valor ou tamanho.
 
 Declaração com inicialização de tamanho:
-csharp
-Copiar código
 int[] numeros = new int[5];
 Neste caso, numeros é um array de inteiros com 5 elementos. O valor inicial de todos os elementos será 0, já que é o valor padrão para o tipo int.
 
 Declaração e inicialização com valores específicos:
-csharp
-Copiar código
 int[] numeros = { 1, 2, 3, 4, 5 };
 Aqui, numeros é um array de inteiros, e os valores são atribuídos diretamente.
 
@@ -1860,22 +1854,18 @@ Aqui, numeros é um array de inteiros, e os valores são atribuídos diretamente
 Os elementos de um array são acessados por meio de índices, que começam do zero. Para acessar o primeiro elemento de um array, você usa array[0], para o segundo, array[1], e assim por diante.
 
 Exemplo:
-
-csharp
-Copiar código
 int[] numeros = { 1, 2, 3, 4, 5 };
 Console.WriteLine(numeros[0]);  // Saída: 1
 Console.WriteLine(numeros[2]);  // Saída: 3
+
 3. Modificando Elementos de um Array
 Você pode modificar um elemento de um array acessando-o pelo índice e atribuindo um novo valor.
 
 Exemplo:
-
-csharp
-Copiar código
 int[] numeros = { 1, 2, 3, 4, 5 };
 numeros[1] = 10;  // Altera o segundo elemento (índice 1) para 10
 Console.WriteLine(numeros[1]);  // Saída: 10
+
 Características Importantes
 Tamanho fixo: Uma vez que o array é criado, seu tamanho não pode ser alterado. Se precisar de uma coleção de tamanho variável, você pode usar outras coleções, como List<T>.
 
@@ -1884,9 +1874,6 @@ Tamanho fixo: Uma vez que o array é criado, seu tamanho não pode ser alterado.
 Arrays multidimensionais: C# suporta arrays de mais de uma dimensão, como arrays bidimensionais (matrizes).
 
 Exemplo de array bidimensional:
-
-csharp
-Copiar código
 int[,] matriz = new int[2, 3];  // Matriz com 2 linhas e 3 colunas
 matriz[0, 0] = 1;
 matriz[0, 1] = 2;
@@ -1894,34 +1881,30 @@ matriz[0, 2] = 3;
 matriz[1, 0] = 4;
 matriz[1, 1] = 5;
 matriz[1, 2] = 6;
+
 Arrays Jagged (irregulares): São arrays de arrays, ou seja, um array cujos elementos são outros arrays. Esse tipo de array é útil quando você tem sub-arrays de tamanhos diferentes.
 
 Exemplo de array jagged:
-
-csharp
-Copiar código
 int[][] jaggedArray = new int[2][];
 jaggedArray[0] = new int[] { 1, 2, 3 };
 jaggedArray[1] = new int[] { 4, 5 };
+
 Exemplos Práticos
 Array de inteiros:
-csharp
-Copiar código
 int[] idades = new int[3] { 20, 30, 40 };
 Console.WriteLine(idades[0]);  // Saída: 20
 Console.WriteLine(idades[1]);  // Saída: 30
+
 Array multidimensional (matriz 2x3):
-csharp
-Copiar código
 int[,] matriz = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
 Console.WriteLine(matriz[1, 2]);  // Saída: 6
+
 Array jagged:
-csharp
-Copiar código
 int[][] jaggedArray = new int[2][];
 jaggedArray[0] = new int[] { 10, 20, 30 };
 jaggedArray[1] = new int[] { 40, 50 };
 Console.WriteLine(jaggedArray[0][2]);  // Saída: 30
+
 Conclusão
 Os arrays em C# são poderosos para armazenar e manipular coleções de dados de um único tipo. Ao utilizar arrays, é importante lembrar que eles têm tamanho fixo após a criação, mas oferecem acesso rápido e eficiente aos elementos. Se você precisar de um tamanho variável, pode usar outras estruturas como listas.
 
