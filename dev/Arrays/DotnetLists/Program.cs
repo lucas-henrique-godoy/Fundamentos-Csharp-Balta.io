@@ -8,8 +8,10 @@ namespace DotnetLists
         {
             Console.Clear();
 
-            var meuArray = new int[5]{ 23, 42, 54, 67, 99 };
+            var meuArray = new int[2];
             meuArray[0] = 12;
+
+            
 
             Console.WriteLine(meuArray[0]); 
             Console.WriteLine(meuArray[1]);
