@@ -8,7 +8,7 @@ namespace Numbers
         {
             Console.Clear();
             
-            var valor = 10.25;
+            decimal valor = 10.25m;
             
             Console.WriteLine(valor);
         }
