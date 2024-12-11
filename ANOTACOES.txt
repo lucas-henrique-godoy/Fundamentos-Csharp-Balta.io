@@ -1908,6 +1908,41 @@ Console.WriteLine(jaggedArray[0][2]);  // Saída: 30
 Conclusão
 Os arrays em C# são poderosos para armazenar e manipular coleções de dados de um único tipo. Ao utilizar arrays, é importante lembrar que eles têm tamanho fixo após a criação, mas oferecem acesso rápido e eficiente aos elementos. Se você precisar de um tamanho variável, pode usar outras estruturas como listas.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*** EXEMPLO DE COMPORTAMENTO DOS ARRAYS:
+
+Neste exemplo, o código está lidando com um comportamento específico de arrays em C# e o conceito de referências de tipos de valor.
+
+Aqui está a explicação passo a passo do que acontece:
+
+var arr = new int[4];     // Declara e inicializa um array de inteiros com 4 posições (valores padrão: 0).
+var arrb = arr;           // Cria uma nova variável 'arrb' que referencia o mesmo array que 'arr'.
+
+arr[0] = 23;              // Atribui o valor 23 à primeira posição do array 'arr' (posição 0).
+Console.WriteLine(arrb[0]); // Imprime o valor da primeira posição do array 'arrb', que é 23.
+
+Explicação detalhada:
+var arr = new int[4];
+
+Um novo array de inteiros é criado com 4 posições, todas inicializadas com o valor padrão 0 (para tipos de valor como int, o valor padrão é 0).
+O array é armazenado na variável arr.
+var arrb = arr;:
+
+A variável arrb recebe o mesmo array que arr referencia.
+Isso não cria uma cópia do array, mas sim faz arrb referenciar o mesmo array que arr. Portanto, arr e arrb são duas variáveis apontando para o mesmo array na memória.
+arr[0] = 23;:
+
+O valor da primeira posição do array (arr[0]) é alterado para 23.
+Como arr e arrb referenciam o mesmo array, qualquer alteração feita em arr também afeta arrb.
+Console.WriteLine(arrb[0]);:
+
+Aqui, ao acessar arrb[0], estamos na verdade acessando o mesmo array que foi alterado anteriormente através de arr.
+Como arrb e arr apontam para o mesmo local na memória, o valor de arrb[0] também será 23, e isso é impresso no console.
+
+Resumo:
+O array arr e a variável arrb referenciam o mesmo array na memória.
+Ao modificar o conteúdo de arr, a alteração reflete automaticamente em arrb, pois ambas as variáveis estão apontando para o mesmo espaço de memória.
+Esse comportamento é típico de tipos referenciados (como arrays, listas, objetos, etc.) em C#. Ao contrário de tipos por valor (como int, float, char), onde uma cópia do valor é feita, tipos referenciados compartilham a mesma instância na memória.
 
 
 
