@@ -24,6 +24,12 @@ namespace TratamentoDeErros
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("Não encontrei o índice na lista!");
             }
+            catch (ArgumentNullException ex) // Mais específico
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Falha ao cadastrar texto");
+            }
             catch (Exception ex) // Genérico
             {
                 Console.WriteLine(ex.InnerException);
@@ -36,7 +42,7 @@ namespace TratamentoDeErros
         {
             if(string.IsNullOrEmpty(texto))
             {
-                throw new Exception("O texto não pode ser nulo ou vazio");
+                throw new ArgumentNullException("O texto não pode ser nulo ou vazio");
             }
         }
     }
