@@ -6,7 +6,7 @@ namespace TratamentoDeErros
     {
         static void Main(string[] args)
         {
-           Exception
+           var arr = new int[3];
         }
     }
 }
