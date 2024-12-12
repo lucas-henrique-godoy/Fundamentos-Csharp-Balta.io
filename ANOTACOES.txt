@@ -2025,7 +2025,127 @@ Console.WriteLine(segundo[0]);  // Como 'primeiro' e 'segundo' são arrays indep
 Explicação do Cenário 2:
 
 Quando você faz segundo[0] = primeiro[0];, você está copiando o valor de primeiro[0] para segundo[0]. Depois disso, primeiro e segundo se tornam arrays independentes. Alterar primeiro[0] para 23 não afeta segundo[0], pois os arrays são agora distintos e segundo[0] permanece com o valor que foi copiado de primeiro[0], ou seja, 0.
+_______________________________________________________________________________________________________________________________________________________________________
 
+* EXCEPTIONS: O tratamento de exceções em C# é um mecanismo utilizado para capturar e gerenciar erros que ocorrem durante a execução de um programa, permitindo que o sistema continue funcionando de maneira controlada, em vez de falhar abruptamente.
+
+Estrutura básica do tratamento de exceções
+O tratamento de exceções em C# é realizado por meio de um bloco try-catch. O código que pode gerar uma exceção é colocado dentro do bloco try, enquanto o bloco catch captura a exceção e define como ela deve ser tratada.
+
+Exemplo básico de tratamento de exceções:
+csharp
+Copiar código
+try
+{
+    // Código que pode gerar exceção
+    int[] numeros = new int[3];
+    numeros[5] = 10;  // Exceção ocorre aqui (IndexOutOfRangeException)
+}
+catch (IndexOutOfRangeException ex)
+{
+    // Tratamento da exceção
+    Console.WriteLine("Ocorreu um erro: " + ex.Message);
+}
+Explicação dos componentes
+try: Bloco onde o código que pode gerar uma exceção é colocado. Caso um erro ocorra, a execução do código é interrompida, e o controle é transferido para o bloco catch.
+
+catch: Bloco que captura a exceção lançada pelo código no try. Ele permite tratar o erro de maneira específica. Você pode capturar exceções de tipos específicos ou usar um catch genérico para capturar qualquer tipo de exceção.
+
+finally: Bloco opcional que é executado sempre, independentemente de a exceção ter sido lançada ou não. Pode ser usado para liberar recursos, como fechar arquivos ou conexões de banco de dados.
+
+Exemplo com finally:
+csharp
+Copiar código
+try
+{
+    // Código que pode gerar exceção
+    Console.WriteLine("Abrindo arquivo...");
+}
+catch (IOException ex)
+{
+    // Tratamento da exceção
+    Console.WriteLine("Erro ao abrir o arquivo: " + ex.Message);
+}
+finally
+{
+    // Código que sempre será executado
+    Console.WriteLine("Fechando recursos...");
+}
+Hierarquia de exceções
+Em C#, as exceções herdam da classe base System.Exception. Isso significa que você pode capturar exceções específicas ou usar um catch genérico.
+
+Exceções específicas: Capturam exceções de tipos específicos (exemplo: FileNotFoundException, NullReferenceException).
+Exceção genérica: Captura qualquer exceção que herde de Exception, como um "catch-all".
+Exemplo com múltiplos catch:
+csharp
+Copiar código
+try
+{
+    // Código que pode gerar exceções
+    int x = 10;
+    int y = 0;
+    int resultado = x / y;  // DivideByZeroException
+}
+catch (DivideByZeroException ex)
+{
+    Console.WriteLine("Erro: Divisão por zero");
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Erro inesperado: " + ex.Message);
+}
+Lançando exceções
+Você também pode lançar exceções manualmente com o comando throw. Isso é útil quando você deseja sinalizar que ocorreu um erro em determinado ponto do seu código.
+
+Exemplo de throw:
+csharp
+Copiar código
+void Dividir(int a, int b)
+{
+    if (b == 0)
+    {
+        throw new ArgumentException("Não é possível dividir por zero.");
+    }
+    Console.WriteLine(a / b);
+}
+
+try
+{
+    Dividir(10, 0);  // Vai lançar uma exceção
+}
+catch (ArgumentException ex)
+{
+    Console.WriteLine(ex.Message);  // Captura a exceção lançada
+}
+Exceções personalizadas
+Em C# você pode criar suas próprias exceções, criando uma classe que herda de Exception.
+
+Exemplo de exceção personalizada:
+csharp
+Copiar código
+public class ExcecaoPersonalizada : Exception
+{
+    public ExcecaoPersonalizada(string mensagem) : base(mensagem)
+    {
+    }
+}
+
+// Lançando a exceção personalizada
+try
+{
+    throw new ExcecaoPersonalizada("Erro personalizado");
+}
+catch (ExcecaoPersonalizada ex)
+{
+    Console.WriteLine(ex.Message);
+}
+Resumo:
+try: Bloco que contém o código suscetível a falhas.
+catch: Bloco que captura e trata as exceções.
+finally: Bloco opcional que é sempre executado, mesmo que ocorra uma exceção.
+Exceções: São objetos que herdam de System.Exception e são usadas para indicar que algo deu errado.
+throw: Usado para lançar exceções manualmente.
+Este tratamento torna os programas mais robustos e ajuda a evitar falhas inesperadas, permitindo que os desenvolvedores tratem os erros de maneira controlada.
 
 
 
