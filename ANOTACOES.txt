@@ -2147,6 +2147,30 @@ Exceções: São objetos que herdam de System.Exception e são usadas para indic
 throw: Usado para lançar exceções manualmente.
 Este tratamento torna os programas mais robustos e ajuda a evitar falhas inesperadas, permitindo que os desenvolvedores tratem os erros de maneira controlada.
 
+* OBS: Sempre tratar os erros do mais específico para o mais genérico.
+EXEMPLO:
+ 	try
+            {
+                for (var index = 0; index < 10; index++)
+                {
+                    // IndexOutOfRangeException:
+                    Console.WriteLine(arr[index]);
+                }
+            }
+            catch (IndexOutOfRangeException ex) // Mais específico
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Não encontrei o índice na lista!");
+            }
+            catch (Exception ex) // Genérico
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Ops, algo deu errado!");
+            }
+        }
+
 
 
 
