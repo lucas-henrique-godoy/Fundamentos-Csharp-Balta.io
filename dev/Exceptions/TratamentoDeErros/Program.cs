@@ -10,11 +10,13 @@ namespace TratamentoDeErros
 
             try
             {
-                for (var index = 0; index < 10; index++)
-                {
-                    // IndexOutOfRangeException:
-                    Console.WriteLine(arr[index]);
-                }
+                // for (var index = 0; index < 10; index++)
+                // {
+                //     // IndexOutOfRangeException:
+                //     Console.WriteLine(arr[index]);
+                // }
+
+                Cadastrar("");
             }
             catch (IndexOutOfRangeException ex) // Mais específico
             {
@@ -27,6 +29,14 @@ namespace TratamentoDeErros
                 Console.WriteLine(ex.InnerException);
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("Ops, algo deu errado!");
+            }
+        }
+
+        static void Cadastrar(string texto)
+        {
+            if(string.IsNullOrEmpty(texto))
+            {
+                throw new Exception("O texto não pode ser nulo ou vazio");
             }
         }
     }
