@@ -2033,8 +2033,7 @@ Estrutura básica do tratamento de exceções
 O tratamento de exceções em C# é realizado por meio de um bloco try-catch. O código que pode gerar uma exceção é colocado dentro do bloco try, enquanto o bloco catch captura a exceção e define como ela deve ser tratada.
 
 Exemplo básico de tratamento de exceções:
-csharp
-Copiar código
+
 try
 {
     // Código que pode gerar exceção
@@ -2046,6 +2045,7 @@ catch (IndexOutOfRangeException ex)
     // Tratamento da exceção
     Console.WriteLine("Ocorreu um erro: " + ex.Message);
 }
+
 Explicação dos componentes
 try: Bloco onde o código que pode gerar uma exceção é colocado. Caso um erro ocorra, a execução do código é interrompida, e o controle é transferido para o bloco catch.
 
@@ -2054,8 +2054,6 @@ catch: Bloco que captura a exceção lançada pelo código no try. Ele permite t
 finally: Bloco opcional que é executado sempre, independentemente de a exceção ter sido lançada ou não. Pode ser usado para liberar recursos, como fechar arquivos ou conexões de banco de dados.
 
 Exemplo com finally:
-csharp
-Copiar código
 try
 {
     // Código que pode gerar exceção
@@ -2071,14 +2069,13 @@ finally
     // Código que sempre será executado
     Console.WriteLine("Fechando recursos...");
 }
+
 Hierarquia de exceções
 Em C#, as exceções herdam da classe base System.Exception. Isso significa que você pode capturar exceções específicas ou usar um catch genérico.
 
 Exceções específicas: Capturam exceções de tipos específicos (exemplo: FileNotFoundException, NullReferenceException).
 Exceção genérica: Captura qualquer exceção que herde de Exception, como um "catch-all".
 Exemplo com múltiplos catch:
-csharp
-Copiar código
 try
 {
     // Código que pode gerar exceções
@@ -2094,12 +2091,11 @@ catch (Exception ex)
 {
     Console.WriteLine("Erro inesperado: " + ex.Message);
 }
+
 Lançando exceções
 Você também pode lançar exceções manualmente com o comando throw. Isso é útil quando você deseja sinalizar que ocorreu um erro em determinado ponto do seu código.
 
 Exemplo de throw:
-csharp
-Copiar código
 void Dividir(int a, int b)
 {
     if (b == 0)
@@ -2117,12 +2113,11 @@ catch (ArgumentException ex)
 {
     Console.WriteLine(ex.Message);  // Captura a exceção lançada
 }
+
 Exceções personalizadas
 Em C# você pode criar suas próprias exceções, criando uma classe que herda de Exception.
 
 Exemplo de exceção personalizada:
-csharp
-Copiar código
 public class ExcecaoPersonalizada : Exception
 {
     public ExcecaoPersonalizada(string mensagem) : base(mensagem)
@@ -2147,7 +2142,7 @@ Exceções: São objetos que herdam de System.Exception e são usadas para indic
 throw: Usado para lançar exceções manualmente.
 Este tratamento torna os programas mais robustos e ajuda a evitar falhas inesperadas, permitindo que os desenvolvedores tratem os erros de maneira controlada.
 
-* OBS: Sempre tratar os erros do mais específico para o mais genérico.
+* OBS: Sempre tratar os erros, do mais específico para o mais genérico.
 EXEMPLO:
  	try
             {
